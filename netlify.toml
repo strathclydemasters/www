@@ -1,4 +1,0 @@
-[build]
-  command = "jekyll build --config _config.yml"
-[context.preview] # 'preview' is the branch name
-  command = "jekyll build --config _config.yml,_config-preview.yml"
