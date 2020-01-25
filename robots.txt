@@ -1,0 +1,11 @@
+---
+---
+User-agent: *
+{% if site.environment == 'production' %}
+Allow: /
+Disallow: /assets/
+Sitemap: {{ site.url }}/sitemap.xml
+{% else %}
+Disallow: /
+{% endif %}
+

@@ -1,0 +1,114 @@
+.g-color-primary {
+	color: #91268F !important;
+}
+
+  .u-block-hover:hover .g-color-primary--hover, .g-color-primary--hover:hover {
+	color: #91268F !important;
+}
+
+  .g-parent:hover .g-color-primary--parent-hover {
+	color: #91268F !important;
+}
+
+
+.u-go-to-v1:hover, .u-go-to-v1:focus:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #91268F;
+}
+
+
+::-moz-selection {
+	color: #fff;
+	background-color: #91268F;
+}
+
+::selection {
+	color: #fff;
+	background-color: #91268F;
+}
+
+
+
+.g-bg-primary ::-moz-selection {
+	color: #91268F;
+	background-color: #fff;
+}
+
+
+.g-bg-primary ::selection {
+	color: #91268F;
+	background-color: #fff;
+}
+
+
+.form-control:focus,
+.custom-select:focus {
+  border-color: #91268F;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+
+.navbar .u-main-nav-v5 .nav-item.active > .nav-link,
+.navbar .u-main-nav-v5 .nav-item:hover > .nav-link,
+.navbar .u-main-nav-v5 .nav-item:focus > .nav-link,
+.navbar .u-main-nav-v5 .nav-item.show > .nav-link,
+.navbar .u-main-nav-v5 .nav-item.hs-sub-menu-opened > .nav-link,
+.navbar .u-main-nav-v5 .nav-item .nav-link:focus {
+  border-color: #91268F;
+}
+
+
+.navbar .u-sub-menu-v1 .hs-sub-menu,
+.navbar .u-sub-menu-v1 .hs-mega-menu,
+.navbar .u-sub-menu-v1 .dropdown-menu {
+  font-weight: normal;
+  text-transform: none;
+  margin-top: 0;
+  color: inherit;
+  background-color: #fff;
+  background-clip: border-box;
+  border-width: 3px 0 0 0;
+  border-style: solid;
+  border-color: #91268F;
+  border-radius: 0;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+
+a {
+	color: #91268F;
+	outline: none;
+  }
+
+  a:focus,
+  a:hover {
+	color: #91268F;
+  }
+
+
+
+.g-bg-primary-opacity-0_8--hover--after:hover::after {
+	background-color: rgba(145, 38, 143, 0.8) !important;
+}
+.u-carousel-indicators-v1 li.slick-active span,
+.u-carousel-indicators-v1--white li.slick-active span {
+  background-color: #91268F;
+}
+.g-bg-primary {
+    background-color: #91268F !important;
+}
+
+.g-brd-primary {
+    border-color: #91268F !important;
+}
+
+
+
+@media print {
+    .no-print, .no-print * {
+		display: none !important;
+	}
+}

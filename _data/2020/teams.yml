@@ -1,0 +1,35 @@
+genders:
+  - gender: Men
+    competitions:
+      - competition: M50+A
+        teams:
+          - team: Deer Doctors
+          - team: Galway
+          - team: London Eagles
+          - team: Strathclyde
+      - competition: M50+B
+        teams:
+          - team: Aberdeen
+          - team: Old Warriors (Belgium)
+          - team: Rathmines
+          - team: Rochdale Rockets
+      - competition: M60+A
+        teams:
+          - team: Derby Ecletic
+          - team: Severnside
+          - team: Shannon Dodgers
+          - team: Strathclyde Sixers
+  - gender: Women
+    competitions:
+      - competition: W45+A
+        teams:
+          - team: Strathclyde
+          - team: Nunthorpe Bruins
+          - team: Mayo
+          - team: Fusion
+      - competition: W45+B
+        teams:
+          - team: Pegasus
+          - team: Glasnevin
+          - team: Rochdale Rockettes
+          - team: Oxford Diamonds
