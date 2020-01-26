@@ -4,10 +4,10 @@
 ====================================================================
 
 
-###### `[  paste your jsfiddle link here  ]`  
+###### `[  paste your jsfiddle link here  ]`
 
-use this jsfiddle to reproduce your bug: 
-http://jsfiddle.net/simeydotme/fmo50w7n/ 
+use this jsfiddle to reproduce your bug:
+https://jsfiddle.net/simeydotme/fmo50w7n/
 we will likely close your issue without it.
 
 
@@ -16,8 +16,8 @@ we will likely close your issue without it.
 
 #### Steps to reproduce the problem
 
-1. ...  
-2. ...  
+1. ...
+2. ...
 
 
 ====================================================================
@@ -25,7 +25,7 @@ we will likely close your issue without it.
 
 #### What is the expected behaviour?
 
-...  
+...
 
 
 ====================================================================
@@ -33,7 +33,7 @@ we will likely close your issue without it.
 
 #### What is observed behaviour?
 
-...  
+...
 
 
 ====================================================================

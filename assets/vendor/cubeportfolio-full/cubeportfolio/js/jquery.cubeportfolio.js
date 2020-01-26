@@ -131,7 +131,7 @@
         },
 
 
-        // http://bit.ly/pure-js-wrap
+        // https://bit.ly/pure-js-wrap
         wrapInner: function(items, classAttr) {
             var t = this,
                 item, i, div;
@@ -2638,8 +2638,8 @@ if (typeof Object.create !== 'function') {
     };
 }
 
-// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
+// https://paulirish.com/2011/requestanimationframe-for-smart-animating/
+// https://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
 // requestAnimationFrame polyfill by Erik M�ller. fixes from Paul Irish and Tino Zijdel
 // MIT license
 (function() {
@@ -4568,7 +4568,7 @@ if (typeof Object.create !== 'function') {
                         type = 'isVimeo';
                     } else if (/www\.ted\.com/i.test(href)) {
                         // create new href
-                        src = 'http://embed.ted.com/talks/' + href.substring(href.lastIndexOf('/') + 1) + '.html';
+                        src = 'https://embed.ted.com/talks/' + href.substring(href.lastIndexOf('/') + 1) + '.html';
 
                         type = 'isTed';
                     } else if (/soundcloud\.com/i.test(href)) {
@@ -4778,7 +4778,7 @@ if (typeof Object.create !== 'function') {
             }
 
             // ios bug to prevent
-            // http://stackoverflow.com/questions/9280258/prevent-body-scrolling-but-allow-overlay-scrolling
+            // https://stackoverflow.com/questions/9280258/prevent-body-scrolling-but-allow-overlay-scrolling
             if (CubePortfolio.private.browser === 'ios') {
                 var element = t.contentWrap[0];
 
@@ -5161,7 +5161,7 @@ if (typeof Object.create !== 'function') {
 
         createFacebookShare: function(item) {
             if (item.length && !item.attr('onclick')) {
-                item.attr('onclick', "window.open('http://www.facebook.com/sharer.php?u=" + encodeURIComponent(window.location.href) + "', '_blank', 'top=100,left=100,toolbar=0,status=0,width=620,height=400'); return false;");
+                item.attr('onclick', "window.open('https://www.facebook.com/sharer.php?u=" + encodeURIComponent(window.location.href) + "', '_blank', 'top=100,left=100,toolbar=0,status=0,width=620,height=400'); return false;");
             }
         },
 
@@ -5186,7 +5186,7 @@ if (typeof Object.create !== 'function') {
                     media = firstImg.src;
                 }
 
-                item.attr('onclick', "window.open('http://pinterest.com/pin/create/button/?url=" + encodeURIComponent(window.location.href) + "&media=" + media + "', '_blank', 'top=100,left=100,toolbar=0,status=0,width=620,height=400'); return false;");
+                item.attr('onclick', "window.open('https://pinterest.com/pin/create/button/?url=" + encodeURIComponent(window.location.href) + "&media=" + media + "', '_blank', 'top=100,left=100,toolbar=0,status=0,width=620,height=400'); return false;");
             }
         },
 

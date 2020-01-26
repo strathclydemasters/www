@@ -30,7 +30,7 @@
 		$.extend(_options , options);
 		this.options = _options;
 
-        //this.graph = this.options.https ? 'https://graph.facebook.com' : 'http://graph.facebook.com';
+        //this.graph = this.options.https ? 'https://graph.facebook.com' : 'https://graph.facebook.com';
 		this.graph = 'https://graph.facebook.com';
 
 		var that = this;

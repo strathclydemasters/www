@@ -4,7 +4,7 @@
       "prism.js",
       "themes/prism.css"
   ],
-  "homepage": "http://prismjs.com",
+  "homepage": "https://prismjs.com",
   "authors": "Lea Verou",
   "description": "Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet.",
   "license": "MIT",

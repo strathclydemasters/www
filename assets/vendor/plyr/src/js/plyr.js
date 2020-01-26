@@ -1012,7 +1012,7 @@ class Plyr {
     /**
      * Destroy an instance
      * Event listeners are removed when elements are removed
-     * http://stackoverflow.com/questions/12528049/if-a-dom-element-is-removed-are-its-listeners-also-removed-from-memory
+     * https://stackoverflow.com/questions/12528049/if-a-dom-element-is-removed-are-its-listeners-also-removed-from-memory
      * @param {function} callback - Callback for when destroy is complete
      * @param {boolean} soft - Whether it's a soft destroy (for source changes etc)
      */

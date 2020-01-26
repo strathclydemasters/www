@@ -1,26 +1,26 @@
 /**
  * @author    ThemePunch <info@themepunch.com>
- * @link      http://www.themepunch.com/
+ * @link      https://www.themepunch.com/
  * @copyright 2017 ThemePunch
  */
 
 .rs-addon-polyfold {
-	
+
     position: absolute;
     left: 0;
     width: 100%;
 	height: auto;
     z-index: 1099;
 	pointer-events: none;
-	
+
 }
 
 .rs-addon-polyfold div {
-	
+
 	position: absolute;
 	border-style: solid;
     box-sizing: content-box;
-	
+
 }
 
 .rs-addon-poly-nav-level {z-index: 999}

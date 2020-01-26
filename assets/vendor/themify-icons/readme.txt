@@ -4,19 +4,19 @@ HOW TO USE IT:
 1) Upload the ‘themify-icons.css’ file and ‘fonts’ folder to your server
 
 2) Add the CSS file into the <head> section of your site:
-<link href="http://yoursite.com/themify-icons.css" rel="stylesheet">
+<link href="https://yoursite.com/themify-icons.css" rel="stylesheet">
 
 3) Add the icon markup in your page:
 <span class="ti-download"></span>
 
-All icons can be viewed at: http://themify.me/themify-icons
+All icons can be viewed at: https://themify.me/themify-icons
 
 
 =====================================
 LICENSE
 
-- Themify Icons font licensed under: http://scripts.sil.org/OFL
-- Code licensed under: http://opensource.org/licenses/mit-license.html
+- Themify Icons font licensed under: https://scripts.sil.org/OFL
+- Code licensed under: https://opensource.org/licenses/mit-license.html
 - All brand icons are copyright/trademarks of their respective owners.
 
 

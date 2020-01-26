@@ -390,7 +390,7 @@ const defaults = {
     },
 
     // Advertisements plugin
-    // Register for an account here: http://vi.ai/publisher-video-monetization/?aid=plyrio
+    // Register for an account here: https://vi.ai/publisher-video-monetization/?aid=plyrio
     ads: {
         enabled: false,
         publisherId: '',

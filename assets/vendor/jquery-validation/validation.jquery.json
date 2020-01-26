@@ -10,17 +10,17 @@
 	"author": {
 		"name": "Jörn Zaefferer",
 		"email": "joern.zaefferer@gmail.com",
-		"url": "http://bassistance.de"
+		"url": "https://bassistance.de"
 	},
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/MIT"
+			"url": "https://www.opensource.org/licenses/MIT"
 		}
 	],
 	"bugs": "https://github.com/jzaefferer/jquery-validation/issues",
 	"homepage": "https://github.com/jzaefferer/jquery-validation",
-	"docs": "http://jqueryvalidation.org/documentation/",
+	"docs": "https://jqueryvalidation.org/documentation/",
 	"download": "https://github.com/jzaefferer/jquery-validation/releases",
 	"dependencies": {
 		"jquery": ">=1.4.4"

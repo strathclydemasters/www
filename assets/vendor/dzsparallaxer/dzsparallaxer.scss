@@ -1,8 +1,8 @@
 
 /*
  * Author: Digital Zoom Studio
- * Website: http://digitalzoomstudio.net/
- * Portfolio: http://codecanyon.net/user/ZoomIt/portfolio
+ * Website: https://digitalzoomstudio.net/
+ * Portfolio: https://codecanyon.net/user/ZoomIt/portfolio
  *
  * Version: 1.31
  *
@@ -708,7 +708,7 @@ $size: 22px;
 
   content: "";
 
-  background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="#{$size}" height="#{$size}" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve"> <g> <path d="M13.645,8.35c-2.256,2.016-3.384,4.068-3.384,6.156c0,2.088,0.864,3.733,2.592,4.932c-0.048,1.152-0.444,2.124-1.188,2.916 c-0.745,0.792-1.645,1.188-2.7,1.188c-2.64,0-3.96-1.439-3.96-4.319c0-1.968,0.731-4.115,2.196-6.444 c1.464-2.328,3.348-4.14,5.651-5.436L13.645,8.35z M24.085,8.35c-2.257,2.016-3.384,4.068-3.384,6.156 c0,2.088,0.864,3.733,2.592,4.932c-0.049,1.152-0.444,2.124-1.188,2.916c-0.745,0.792-1.646,1.188-2.7,1.188 c-2.641,0-3.96-1.439-3.96-4.319c0-1.968,0.73-4.115,2.195-6.444c1.464-2.328,3.349-4.14,5.652-5.436L24.085,8.35z"/> </g> </svg>');
+  background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" width="#{$size}" height="#{$size}" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve"> <g> <path d="M13.645,8.35c-2.256,2.016-3.384,4.068-3.384,6.156c0,2.088,0.864,3.733,2.592,4.932c-0.048,1.152-0.444,2.124-1.188,2.916 c-0.745,0.792-1.645,1.188-2.7,1.188c-2.64,0-3.96-1.439-3.96-4.319c0-1.968,0.731-4.115,2.196-6.444 c1.464-2.328,3.348-4.14,5.651-5.436L13.645,8.35z M24.085,8.35c-2.257,2.016-3.384,4.068-3.384,6.156 c0,2.088,0.864,3.733,2.592,4.932c-0.049,1.152-0.444,2.124-1.188,2.916c-0.745,0.792-1.646,1.188-2.7,1.188 c-2.641,0-3.96-1.439-3.96-4.319c0-1.968,0.73-4.115,2.195-6.444c1.464-2.328,3.349-4.14,5.652-5.436L24.085,8.35z"/> </g> </svg>');
 
   position: absolute;
   top:5px;

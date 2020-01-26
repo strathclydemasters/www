@@ -20,7 +20,7 @@ typeof navigator === "object" && (function (global, factory) {
       ce.preventDefault();
       if (ce.defaultPrevented !== true) {
         // IE has problems with .preventDefault() on custom events
-        // http://stackoverflow.com/questions/23349191
+        // https://stackoverflow.com/questions/23349191
         throw new Error('Could not prevent default');
       }
     } catch (e) {
@@ -279,9 +279,9 @@ typeof navigator === "object" && (function (global, factory) {
 
     var checkIfURLIsSupported = function() {
       try {
-        var u = new URL('b', 'http://a');
+        var u = new URL('b', 'https://a');
         u.pathname = 'c%20d';
-        return (u.href === 'http://a/c%20d') && u.searchParams;
+        return (u.href === 'https://a/c%20d') && u.searchParams;
       } catch (e) {
         return false;
       }
@@ -431,7 +431,7 @@ typeof navigator === "object" && (function (global, factory) {
             // get expected port from protocol
             var expectedPort = { 'http:': 80, 'https:': 443, 'ftp:': 21 }[this._anchorElement.protocol];
             // add port to origin if, expected port is different than actual port
-            // and it is not empty f.e http://foo:8080
+            // and it is not empty f.e https://foo:8080
             // 8080 != 80 && 8080 != ''
             var addPortToOrigin = this._anchorElement.port != expectedPort &&
               this._anchorElement.port !== '';
@@ -2206,7 +2206,7 @@ typeof navigator === "object" && (function (global, factory) {
     return C === undefined || (S = _anObject(C)[SPECIES$1]) == undefined ? D : _aFunction(S);
   };
 
-  // fast apply, http://jsperf.lnkit.com/fast-apply/5
+  // fast apply, https://jsperf.lnkit.com/fast-apply/5
   var _invoke = function (fn, args, that) {
     var un = that === undefined;
     switch (args.length) {
@@ -2814,8 +2814,8 @@ typeof navigator === "object" && (function (global, factory) {
 
     var string = input;
 
-    if (!input.startsWith('http://') || !input.startsWith('https://')) {
-      string = "http://".concat(input);
+    if (!input.startsWith('https://') || !input.startsWith('https://')) {
+      string = "https://".concat(input);
     }
 
     try {
@@ -3355,8 +3355,8 @@ typeof navigator === "object" && (function (global, factory) {
     // https://webkit.org/blog/6784/new-video-policies-for-ios/
     playsinline: 'playsInline' in document.createElement('video'),
     // Check for mime type support against a player instance
-    // Credits: http://diveintohtml5.info/everything.html
-    // Related: http://www.leanbackplayer.com/test/h5mt.html
+    // Credits: https://diveintohtml5.info/everything.html
+    // Related: https://www.leanbackplayer.com/test/h5mt.html
     mime: function mime(inputType) {
       var _inputType$split = inputType.split('/'),
           _inputType$split2 = _slicedToArray(_inputType$split, 1),
@@ -3486,7 +3486,7 @@ typeof navigator === "object" && (function (global, factory) {
 
       removeElement(html5.getSources.call(this)); // Set blank video src attribute
       // This is to prevent a MEDIA_ERR_SRC_NOT_SUPPORTED error
-      // Info: http://stackoverflow.com/questions/32231579/how-to-properly-dispose-of-an-html5-video-and-close-socket-or-connection
+      // Info: https://stackoverflow.com/questions/32231579/how-to-properly-dispose-of-an-html5-video-and-close-socket-or-connection
 
       this.media.setAttribute('src', this.config.blankVideo); // Load the new empty source
       // This will cancel existing requests
@@ -3997,7 +3997,7 @@ typeof navigator === "object" && (function (global, factory) {
     },
     // Create <svg> icon
     createIcon: function createIcon(type, attributes) {
-      var namespace = 'http://www.w3.org/2000/svg';
+      var namespace = 'https://www.w3.org/2000/svg';
       var iconUrl = controls.getIconUrl.call(this);
       var iconPath = "".concat(!iconUrl.cors ? iconUrl.url : '', "#").concat(this.config.iconPrefix); // Create <svg>
 
@@ -4013,11 +4013,11 @@ typeof navigator === "object" && (function (global, factory) {
       // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href
 
       if ('href' in use) {
-        use.setAttributeNS('http://www.w3.org/1999/xlink', 'href', path);
+        use.setAttributeNS('https://www.w3.org/1999/xlink', 'href', path);
       } // Always set the older attribute even though it's "deprecated" (it'll be around for ages)
 
 
-      use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', path); // Add <use> to <svg>
+      use.setAttributeNS('https://www.w3.org/1999/xlink', 'xlink:href', path); // Add <use> to <svg>
 
       icon.appendChild(use);
       return icon;
@@ -6105,7 +6105,7 @@ typeof navigator === "object" && (function (global, factory) {
       google: null
     },
     // Advertisements plugin
-    // Register for an account here: http://vi.ai/publisher-video-monetization/?aid=plyrio
+    // Register for an account here: https://vi.ai/publisher-video-monetization/?aid=plyrio
     ads: {
       enabled: false,
       publisherId: ''
@@ -6726,7 +6726,7 @@ typeof navigator === "object" && (function (global, factory) {
         if (pressed) {
           // Check focused element
           // and if the focused element is not editable (e.g. text input)
-          // and any that accept key input http://webaim.org/techniques/keyboard/
+          // and any that accept key input https://webaim.org/techniques/keyboard/
           var focused = document.activeElement;
 
           if (is$1.element(focused)) {
@@ -7521,7 +7521,7 @@ typeof navigator === "object" && (function (global, factory) {
     } else if (/(^img!|\.(png|gif|jpg|svg)$)/.test(path)) {
       // image
       e = doc.createElement('img');
-      e.src = pathStripped;    
+      e.src = pathStripped;
     } else {
       // javascript
       e = doc.createElement('script');
@@ -9748,7 +9748,7 @@ typeof navigator === "object" && (function (global, factory) {
       /**
        * Destroy an instance
        * Event listeners are removed when elements are removed
-       * http://stackoverflow.com/questions/12528049/if-a-dom-element-is-removed-are-its-listeners-also-removed-from-memory
+       * https://stackoverflow.com/questions/12528049/if-a-dom-element-is-removed-are-its-listeners-also-removed-from-memory
        * @param {function} callback - Callback for when destroy is complete
        * @param {boolean} soft - Whether it's a soft destroy (for source changes etc)
        */

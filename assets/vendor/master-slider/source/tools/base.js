@@ -44,7 +44,7 @@ window.averta = {};
 
 
 	// Thanks to LEA VEROU
-	// http://lea.verou.me/2009/02/find-the-vendor-prefix-of-the-current-browser/
+	// https://lea.verou.me/2009/02/find-the-vendor-prefix-of-the-current-browser/
 	function getVendorPrefix() {
 
 		if('result' in arguments.callee) return arguments.callee.result;
@@ -67,7 +67,7 @@ window.averta = {};
 
 
 	// Thanks to Steven Benner.
-	// http://stevenbenner.com/2010/03/javascript-regex-trick-parse-a-query-string-into-an-object/
+	// https://stevenbenner.com/2010/03/javascript-regex-trick-parse-a-query-string-into-an-object/
 	window.parseQueryString = function(url){
 		var queryString = {};
 		url.replace(
@@ -134,7 +134,7 @@ window.averta = {};
 
 	/**
 	 * Provides requestAnimationFrame in a cross browser way.
-	 * @author paulirish / http://paulirish.com/
+	 * @author paulirish / https://paulirish.com/
 	 */
 	var fps60 = 50/3;
 

@@ -6,11 +6,11 @@ Supported lowest jQuery version 1.8
 
 DEMO
 ========
-[Demo Page 1 (responsive)](http://atayahmet.github.io/jquery.easypin/demo1.html)
+[Demo Page 1 (responsive)](https://atayahmet.github.io/jquery.easypin/demo1.html)
 
-[Demo Page 2 ](http://atayahmet.github.io/jquery.easypin/demo2.html)
+[Demo Page 2 ](https://atayahmet.github.io/jquery.easypin/demo2.html)
 
-[Demo Page 3 ](http://atayahmet.github.io/jquery.easypin/demo3.html)
+[Demo Page 3 ](https://atayahmet.github.io/jquery.easypin/demo3.html)
 
 Quick Start
 ==============
@@ -41,7 +41,7 @@ First, include the jQuery and jQuery easing plugin javascript files.
 
 |      option                  | type                    | description                                   |
 | ---------------------------- | ----------------------- | --------------------------------------------- |
-| easypin-id                   | `attribute`             | It will be the default value if not defined   |                                    
+| easypin-id                   | `attribute`             | It will be the default value if not defined   |
 
 ### Dialog window for pin contents
 ```html
@@ -55,8 +55,8 @@ First, include the jQuery and jQuery easing plugin javascript files.
 
 |      option                  | type                    | description                                      |
 | ---------------------------- | ----------------------- | ------------------------------------------------ |
-| easy-submit                  | `class`                 | Class must be defined to close the dialog window |    
-| modal-position               | `attribute`             | Dialog window free position (default: none)      |    
+| easy-submit                  | `class`                 | Class must be defined to close the dialog window |
+| modal-position               | `attribute`             | Dialog window free position (default: none)      |
 
 
 ### Popover
@@ -68,8 +68,8 @@ First, include the jQuery and jQuery easing plugin javascript files.
 
 |      option                  | type                    | description                          |
 | ---------------------------- | ----------------------- | ------------------------------------ |
-| popover                      | `attribute`             | Popover initializer attribute (MUST) |    
-| width                        | `attribute`             | Popover width size (default: 200px)  |  
+| popover                      | `attribute`             | Popover initializer attribute (MUST) |
+| width                        | `attribute`             | Popover width size (default: 200px)  |
 | shadow                       | `attribute`             | Popover show style (default: false)  |
 
 ### Initialize the pictures:
@@ -138,7 +138,7 @@ We pass parameters when calling the above coordinate the event. Before the callb
 
 |      option                  | type                    | description                          |
 | ---------------------------- | ----------------------- | ------------------------------------ |
-| easypin-tpl                  | `attribute`             | Marker and Popover container element |    
+| easypin-tpl                  | `attribute`             | Marker and Popover container element |
 | popover                      | `html tag`              | Popover container element            |
 | marker                       | `html tag`              | Marker container element             |
 

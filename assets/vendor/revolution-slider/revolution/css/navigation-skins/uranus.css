@@ -6,7 +6,7 @@
 
 author:  ThemePunch
 email:      info@themepunch.com
-website:    http://www.themepunch.com
+website:    https://www.themepunch.com
 -----------------------------------------------------------------------------*/
 /* ARROWS */
 .uranus.tparrows {
@@ -22,7 +22,7 @@ website:    http://www.themepunch.com
  transition:all 0.3s;
 -webkit-transition:all 0.3s;
  }
- 
+
   .uranus.tparrows:hover:before {
     opacity:0.75;
   }

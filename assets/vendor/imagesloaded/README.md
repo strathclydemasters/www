@@ -2,7 +2,7 @@
 
 <p class="tagline">JavaScript is all like "You images done yet or what?"</p>
 
-[imagesloaded.desandro.com](http://imagesloaded.desandro.com)
+[imagesloaded.desandro.com](https://imagesloaded.desandro.com)
 
 Detect when images have been loaded.
 
@@ -25,7 +25,7 @@ Detect when images have been loaded.
 
 Install via [npm](https://www.npmjs.com/package/imagesloaded): `npm install imagesloaded`
 
-Install via [Bower](http://bower.io): `bower install imagesloaded --save`
+Install via [Bower](https://bower.io): `bower install imagesloaded --save`
 
 ## jQuery
 
@@ -46,7 +46,7 @@ $('#container').imagesLoaded( {
 );
 ```
 
-`.imagesLoaded()` returns a [jQuery Deferred object](http://api.jquery.com/category/deferred-object/). This allows you to use `.always()`, `.done()`, `.fail()` and `.progress()`.
+`.imagesLoaded()` returns a [jQuery Deferred object](https://api.jquery.com/category/deferred-object/). This allows you to use `.always()`, `.done()`, `.fail()` and `.progress()`.
 
 ``` js
 $('#container').imagesLoaded()
@@ -126,7 +126,7 @@ imagesLoaded( '#container', { background: true }, function() {
 });
 ```
 
-[See jQuery demo](http://codepen.io/desandro/pen/pjVMPB) or [vanilla JS demo](http://codepen.io/desandro/pen/avKooW) on CodePen.
+[See jQuery demo](https://codepen.io/desandro/pen/pjVMPB) or [vanilla JS demo](https://codepen.io/desandro/pen/avKooW) on CodePen.
 
 Set to a selector string like `{ background: '.item' }` to detect when the background images of child elements have loaded.
 
@@ -142,7 +142,7 @@ imagesLoaded( '#container', { background: '.item' }, function() {
 });
 ```
 
-[See jQuery demo](http://codepen.io/desandro/pen/avKoZL) or [vanilla JS demo](http://codepen.io/desandro/pen/vNrBGz) on CodePen.
+[See jQuery demo](https://codepen.io/desandro/pen/avKoZL) or [vanilla JS demo](https://codepen.io/desandro/pen/vNrBGz) on CodePen.
 
 ## Events
 
@@ -240,7 +240,7 @@ imgLoad.on( 'always', function() {
 
 ## Browserify
 
-imagesLoaded works with [Browserify](http://browserify.org/).
+imagesLoaded works with [Browserify](https://browserify.org/).
 
 ``` bash
 npm install imagesloaded --save
@@ -304,9 +304,9 @@ webpack main.js bundle.js
 
 ## RequireJS
 
-imagesLoaded works with [RequireJS](http://requirejs.org).
+imagesLoaded works with [RequireJS](https://requirejs.org).
 
-You can require [imagesloaded.pkgd.js](http://imagesloaded.desandro.com/imagesloaded.pkgd.js).
+You can require [imagesloaded.pkgd.js](https://imagesloaded.desandro.com/imagesloaded.pkgd.js).
 
 ``` js
 requirejs( [
@@ -330,7 +330,7 @@ requirejs( [
 });
 ```
 
-You can manage dependencies with [Bower](http://bower.io). Set `baseUrl` to `bower_components` and set a path config for all your application code.
+You can manage dependencies with [Bower](https://bower.io). Set `baseUrl` to `bower_components` and set a path config for all your application code.
 
 ``` js
 requirejs.config({
@@ -355,8 +355,8 @@ requirejs( [
 + iOS Safari 4+
 + All other modern browsers
 
-Use [imagesLoaded v3](http://imagesloaded.desandro.com/v3/) for IE8 support.
+Use [imagesLoaded v3](https://imagesloaded.desandro.com/v3/) for IE8 support.
 
 ## MIT License
 
-imagesLoaded is released under the [MIT License](http://desandro.mit-license.org/). Have at it.
+imagesLoaded is released under the [MIT License](https://desandro.mit-license.org/). Have at it.

@@ -25,7 +25,7 @@ Guidelines for bug reports:
    `master` branch in the repository.
 
 3. **Isolate and report the problem** &mdash; ideally create a reduced test
-   case or a small [jsfiddle](http://jsfiddle.net) showing the issue.
+   case or a small [jsfiddle](https://jsfiddle.net) showing the issue.
 
 Please try to be as detailed as possible in your report. Include information about
 your operating system, browser, jQuery version, and masked input plugin version.
@@ -58,7 +58,7 @@ accurate comments, etc.) and don't forget to add your own tests and
 documentation. When working with git, we recommend the following process
 in order to craft an excellent pull request:
 
-1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
+1. [Fork](https://help.github.com/fork-a-repo/) the project, clone your fork,
    and configure the remotes:
 
    ```bash

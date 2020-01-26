@@ -1,5 +1,5 @@
 ```
-  ___                              ____       _           _   
+  ___                              ____       _           _
  |_ _|_ __ ___   __ _  __ _  ___  / ___|  ___| | ___  ___| |_
   | || '_ ` _ \ / _` |/ _` |/ _ \ \___ \ / _ \ |/ _ \/ __| __|
   | || | | | | | (_| | (_| |  __/  ___) |  __/ |  __/ (__| |_
@@ -8,7 +8,7 @@
 ```
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/websemantics/Image-Select/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/websemantics/Image-Select.svg)](https://github.com/websemantics/Image-Select/network) [![GitHub stars](https://img.shields.io/github/stars/websemantics/Image-Select.svg)](https://github.com/websemantics/Image-Select/stargazers)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/websemantics/Image-Select.svg)](http://isitmaintained.com/project/websemantics/Image-Select "Percentage of issues still open")
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/websemantics/Image-Select.svg)](https://isitmaintained.com/project/websemantics/Image-Select "Percentage of issues still open")
 
 > We designed this plugin extension as a humanized UI element for social networking sites that need to facilitate relations between people. Research shows that people are extremely sensitive to photos of others, so we needed to revamp the traditional UI elements to make them more intuitive and human.
 
@@ -16,9 +16,9 @@
 ## New Style
 > Fresh flat styles and new logo & web design for better user experience
 
-<img src="http://websemantics.github.io/Image-Select/img/sample-w540@2x.png" style="width:540px" alt="Image Select"/>
+<img src="https://websemantics.github.io/Image-Select/img/sample-w540@2x.png" style="width:540px" alt="Image Select"/>
 
-#### Try [Live](http://websemantics.github.io/Image-Select/) or [Examples](http://websemantics.github.io/Image-Select/example.html)
+#### Try [Live](https://websemantics.github.io/Image-Select/) or [Examples](https://websemantics.github.io/Image-Select/example.html)
 
 
 ## Use Scenarios
@@ -99,11 +99,11 @@ We are more than happy to accept external contributions to the project in the fo
 
 
 ## Open Source
-Chosen, http://github.com/harvesthq/chosen
-Bragit, http://websemantics.github.io/bragit
+Chosen, https://github.com/harvesthq/chosen
+Bragit, https://websemantics.github.io/bragit
 
 
 ## Copyright and license
 
-[MIT license](http://opensource.org/licenses/mit-license.php)
+[MIT license](https://opensource.org/licenses/mit-license.php)
 Copyright (c) Web Semantics, Inc.

@@ -2,12 +2,12 @@ QUnit.test( 'append', function( assert ) {
   'use strict';
 
   var imgUrls = [
-    'http://i.imgur.com/bwy74ok.jpg',
-    'http://i.imgur.com/bAZWoqx.jpg',
-    'http://i.imgur.com/PgmEBSB.jpg',
-    'http://i.imgur.com/aboaFoB.jpg',
-    'http://i.imgur.com/LkmcILl.jpg',
-    'http://i.imgur.com/q9zO6tw.jpg'
+    'https://i.imgur.com/bwy74ok.jpg',
+    'https://i.imgur.com/bAZWoqx.jpg',
+    'https://i.imgur.com/PgmEBSB.jpg',
+    'https://i.imgur.com/aboaFoB.jpg',
+    'https://i.imgur.com/LkmcILl.jpg',
+    'https://i.imgur.com/q9zO6tw.jpg'
   ];
 
   // create images
@@ -25,6 +25,6 @@ QUnit.test( 'append', function( assert ) {
   imagesLoaded( elem, { debug: false } ).on( 'always', function() {
     assert.ok( 'appended images loaded' );
     done();
-  }); 
+  });
 
 });

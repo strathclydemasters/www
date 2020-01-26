@@ -53,7 +53,7 @@ class Listeners {
         if (pressed) {
             // Check focused element
             // and if the focused element is not editable (e.g. text input)
-            // and any that accept key input http://webaim.org/techniques/keyboard/
+            // and any that accept key input https://webaim.org/techniques/keyboard/
             const focused = document.activeElement;
             if (is.element(focused)) {
                 const { editable } = player.config.selectors;

@@ -26,9 +26,9 @@
 0.1.4
   date: 2015-08-18
   changes:
-  - Use [Bower](http://bower.io/) for dependancies.
+  - Use [Bower](https://bower.io/) for dependancies.
   - Merged main project and `gh-pages` into one codebase.
-  - Upgrade to latest [Chosen](http://github.com/harvesthq/chosen) library.
+  - Upgrade to latest [Chosen](https://github.com/harvesthq/chosen) library.
   - Support for Left to Right, LTR (i.e. Arabic).
   - Code refactoring to improve quality and ease of contribution.
   - Fixed all known issues

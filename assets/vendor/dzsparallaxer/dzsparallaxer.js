@@ -1,8 +1,8 @@
 
 /*
  * Author: Digital Zoom Studio
- * Website: http://digitalzoomstudio.net/
- * Portfolio: http://codecanyon.net/user/ZoomIt/portfolio
+ * Website: https://digitalzoomstudio.net/
+ * Portfolio: https://codecanyon.net/user/ZoomIt/portfolio
  *
  * Version: 2.63
  *
@@ -1391,7 +1391,7 @@ function is_mobile() {
         return true;
     }
 
-    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    // iOS detection from: https://stackoverflow.com/a/9039885/177710
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         return true;
     }

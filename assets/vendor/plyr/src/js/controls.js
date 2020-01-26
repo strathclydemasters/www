@@ -88,7 +88,7 @@ const controls = {
 
     // Create <svg> icon
     createIcon(type, attributes) {
-        const namespace = 'http://www.w3.org/2000/svg';
+        const namespace = 'https://www.w3.org/2000/svg';
         const iconUrl = controls.getIconUrl.call(this);
         const iconPath = `${!iconUrl.cors ? iconUrl.url : ''}#${this.config.iconPrefix}`;
 
@@ -110,11 +110,11 @@ const controls = {
         // https://github.com/sampotts/plyr/issues/460
         // https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/xlink:href
         if ('href' in use) {
-            use.setAttributeNS('http://www.w3.org/1999/xlink', 'href', path);
+            use.setAttributeNS('https://www.w3.org/1999/xlink', 'href', path);
         }
 
         // Always set the older attribute even though it's "deprecated" (it'll be around for ages)
-        use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', path);
+        use.setAttributeNS('https://www.w3.org/1999/xlink', 'xlink:href', path);
 
         // Add <use> to <svg>
         icon.appendChild(use);

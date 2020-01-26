@@ -12,9 +12,9 @@
  * Hope you find it helpful, and get back if you have any feedback/improvements.
  *
  * @author    Adnan M.Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca) & AlterSpark Corp. (http://www.alterspark.com)
- * @license   http://www.opensource.org/licenses/mit-license.php MIT
- * @link      http://websemantics.ca
+ * @copyright 2002-2015 Web Semantics, Inc. (https://websemantics.ca) & AlterSpark Corp. (https://www.alterspark.com)
+ * @license   https://www.opensource.org/licenses/mit-license.php MIT
+ * @link      https://websemantics.ca
  * @package   websemantics/image-select
  */
 
@@ -134,7 +134,7 @@ $.fn.extend({
         $this.on("chosen:showing_dropdown", function showing_dropdown(evt, chosen){
             // summery
             //    This function is triggered when the chosen instance dropdown list
-            //    becomes visible. http://forwebonly.com/jquery-chosen-custom-events-and-how-to-use-them/
+            //    becomes visible. https://forwebonly.com/jquery-chosen-custom-events-and-how-to-use-them/
             //
             // evt: Event
             //      The event object

@@ -81,14 +81,14 @@ By design, this plugin will reject input which doesn't complete the mask. You ca
 
 Getting the bits
 ----------------
-We generally recommend that you use [bower](http://bower.io) to install jquery.maskedinput plugin.
+We generally recommend that you use [bower](https://bower.io) to install jquery.maskedinput plugin.
 
     $ bower install --save jquery.maskedinput
 
 
 Setting up your Developer Environment
 -------------------------------------
-jQuery Masked Input uses [NodeJS](http://www.nodejs.org) and [GruntJS](http://www.gruntjs.com) as it's developer platform and build automation tool.
+jQuery Masked Input uses [NodeJS](https://www.nodejs.org) and [GruntJS](https://www.gruntjs.com) as it's developer platform and build automation tool.
 
 To get your environment setup correctly, you'll need nodejs version 0.8.25 or greater installed. You'll also need to install the grunt command line tool:
 
@@ -99,4 +99,4 @@ Once node is installed on your system all that you need to do is install the dev
     $ npm install
     $ grunt
 
-All of the tests for jQuery Masked Input are run using the [jasmine](http://jasmine.github.io/) test runner.
+All of the tests for jQuery Masked Input are run using the [jasmine](https://jasmine.github.io/) test runner.

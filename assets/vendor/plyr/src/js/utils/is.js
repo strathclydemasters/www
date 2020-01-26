@@ -38,8 +38,8 @@ const isUrl = input => {
 
     // Add the protocol if required
     let string = input;
-    if (!input.startsWith('http://') || !input.startsWith('https://')) {
-        string = `http://${input}`;
+    if (!input.startsWith('https://') || !input.startsWith('https://')) {
+        string = `https://${input}`;
     }
 
     try {

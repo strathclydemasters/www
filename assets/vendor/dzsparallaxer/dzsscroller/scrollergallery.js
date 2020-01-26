@@ -1,7 +1,7 @@
 /*
  * Author: Digital Zoom Studio
- * Website: http://digitalzoomstudio.net/
- * Portfolio: http://codecanyon.net/user/ZoomIt/portfolio
+ * Website: https://digitalzoomstudio.net/
+ * Portfolio: https://codecanyon.net/user/ZoomIt/portfolio
  * Version: 2.01
  */
 

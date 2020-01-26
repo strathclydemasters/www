@@ -2,7 +2,7 @@
 
 UI utility & helper functions
 
-Used in [Flickity](http://flickity.metafizzy.co), [Isotope](http://isotope.metafizzy.co), [Masonry](http://masonry.desandro.com), [Draggabilly](http://draggabilly.desandro.com)
+Used in [Flickity](https://flickity.metafizzy.co), [Isotope](https://isotope.metafizzy.co), [Masonry](https://masonry.desandro.com), [Draggabilly](https://draggabilly.desandro.com)
 
 ## Install
 
@@ -59,6 +59,6 @@ utils.htmlInit( Class, namespace )
 
 ---
 
-[MIT license](http://desandro.mit-license.org/). Have at it.
+[MIT license](https://desandro.mit-license.org/). Have at it.
 
-By [Metafizzy](http://metafizzy.co)
+By [Metafizzy](https://metafizzy.co)

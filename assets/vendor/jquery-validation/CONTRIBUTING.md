@@ -3,30 +3,30 @@
 ## Reporting an Issue
 
 1. Make sure the problem you're addressing is reproducible.
-2. Use http://jsbin.com or http://jsfiddle.net to provide a test page.
+2. Use https://jsbin.com or https://jsfiddle.net to provide a test page.
 3. Indicate what browsers the issue can be reproduced in. **Note: IE Compatibilty mode issues will not be addressed. Make sure you test in a real browser!**
 4. What version of the plug-in is the issue reproducible in. Is it reproducible after updating to the latest version.
 
 Documentation issues are also tracked at the [jQuery Validation](https://github.com/jzaefferer/jquery-validation/issues) issue tracker.
 Pull Requests to improve the docs are welcome at the [jQuery Validation docs](https://github.com/jzaefferer/validation-content) repository, though.
 
-**IMPORTANT NOTE ABOUT EMAIL VALIDATION**. As of version 1.12.0 this plugin is using the same regular expression that the [HTML5 specification suggests for browsers to use](https://html.spec.whatwg.org/multipage/forms.html#valid-e-mail-address). We will follow their lead and use the same check. If you think the specification is wrong, please report the issue to them. If you have different requirements, consider [using a custom method](http://jqueryvalidation.org/jQuery.validator.addMethod/).
-In case you need to adjust the built-in validation regular expression patterns, please [follow the documentation](http://jqueryvalidation.org/jQuery.validator.methods/).
+**IMPORTANT NOTE ABOUT EMAIL VALIDATION**. As of version 1.12.0 this plugin is using the same regular expression that the [HTML5 specification suggests for browsers to use](https://html.spec.whatwg.org/multipage/forms.html#valid-e-mail-address). We will follow their lead and use the same check. If you think the specification is wrong, please report the issue to them. If you have different requirements, consider [using a custom method](https://jqueryvalidation.org/jQuery.validator.addMethod/).
+In case you need to adjust the built-in validation regular expression patterns, please [follow the documentation](https://jqueryvalidation.org/jQuery.validator.methods/).
 
 ## Contributing code
 
 Thanks for contributing! Here's a few guidelines to help your contribution get landed.
 
 1. Make sure the problem you're addressing is reproducible. Use jsbin.com or jsfiddle.net to provide a test page.
-2. Follow the [jQuery style guide](http://contribute.jquery.com/style-guides/js)
+2. Follow the [jQuery style guide](https://contribute.jquery.com/style-guides/js)
 3. Add or update unit tests along with your patch. Run the unit tests in at least one browser (see below).
 4. Run `grunt` (see below) to check for linting and a few other issues.
 5. Describe the change in your commit message and reference the ticket, like this: "Demos: Fixed delegate bug for dynamic-totals demo. Fixes #51". If you're adding a new localization file, use something like this: "Localization: Added croatian (HR) localization"
 
 ## Build setup
 
-1. Install [NodeJS](http://nodejs.org).
-2. Install the Grunt CLI To install by running `npm install -g grunt-cli`. More details are available on their website http://gruntjs.com/getting-started.
+1. Install [NodeJS](https://nodejs.org).
+2. Install the Grunt CLI To install by running `npm install -g grunt-cli`. More details are available on their website https://gruntjs.com/getting-started.
 3. Install the NPM dependencies by running `npm install`.
 4. The build can now be called by running `grunt`.
 

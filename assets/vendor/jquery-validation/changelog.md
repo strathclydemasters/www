@@ -24,7 +24,7 @@
 
 ## Tests
   * Added regression unit tests for PR #1760
-  
+
 1.15.0 / 2016-02-24
 ==================
 
@@ -73,7 +73,7 @@
   * Update Malay translation
   * Included messages from additional methods
   * Improving pt_BR translation and fixing a typo on the 'cifES' key.
-  
+
 1.14.0 / 2015-06-30
 ==================
 
@@ -275,9 +275,9 @@
 ===================
 
   * Corrected French strings for nowhitespace, phoneUS, phoneUK and mobileUK based upon community feedback.
-  * rename files for language_REGION according to the standard ISO_3166-1 (http://en.wikipedia.org/wiki/ISO_3166-1), for Taiwan tha language is Chinese (zh) and the region is Taiwan (TW)
+  * rename files for language_REGION according to the standard ISO_3166-1 (https://en.wikipedia.org/wiki/ISO_3166-1), for Taiwan tha language is Chinese (zh) and the region is Taiwan (TW)
   * Optimise RegEx patterns, especially for UK phone numbers.
-  * Add Language Name for each file, rename the language code according to the standard ISO 639 for Estonian, Georgian, Ukrainian and Chinese (http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+  * Add Language Name for each file, rename the language code according to the standard ISO 639 for Estonian, Georgian, Ukrainian and Chinese (https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
   * Added croatian (HR) localization
   * Existing French translations were edited and French translations for the additional methods were added.
   * Merged in changes for specifying custom error messages in data attributes
@@ -359,7 +359,7 @@
 
 1.8.0
 ---
-* Improved NL localization (http://plugins.jquery.com/node/14120)
+* Improved NL localization (https://plugins.jquery.com/node/14120)
 * Added Georgian (GE) localization, thanks Avtandil Kikabidze
 * Added Serbian (SR) localization, thanks Aleksandar Milovac
 * Added ipv4 and ipv6 to additional methods, thanks Natal Ngétal
@@ -372,16 +372,16 @@
 1.7
 ---
 * Added Lithuanian (LT) localization
-* Added Greek (EL) localization (http://plugins.jquery.com/node/12319)
-* Added Latvian (LV) localization (http://plugins.jquery.com/node/12349)
-* Added Hebrew (HE) localization (http://plugins.jquery.com/node/12039)
-* Fixed Spanish (ES) localization (http://plugins.jquery.com/node/12696)
+* Added Greek (EL) localization (https://plugins.jquery.com/node/12319)
+* Added Latvian (LV) localization (https://plugins.jquery.com/node/12349)
+* Added Hebrew (HE) localization (https://plugins.jquery.com/node/12039)
+* Fixed Spanish (ES) localization (https://plugins.jquery.com/node/12696)
 * Added jQuery UI themerolled demo
 * Removed cmxform.js
-* Fixed four missing semicolons (http://plugins.jquery.com/node/12639)
+* Fixed four missing semicolons (https://plugins.jquery.com/node/12639)
 * Renamed phone-method in additional-methods.js to phoneUS
-* Added phoneUK and mobileUK methods to additional-methods.js (http://plugins.jquery.com/node/12359)
-* Deep extend options to avoid modifying multiple forms when using the rules-method on a single element (http://plugins.jquery.com/node/12411)
+* Added phoneUK and mobileUK methods to additional-methods.js (https://plugins.jquery.com/node/12359)
+* Deep extend options to avoid modifying multiple forms when using the rules-method on a single element (https://plugins.jquery.com/node/12411)
 * Bugfixes for compatibility with jQuery 1.4.2, while maintaining backwards-compatibility
 
 1.6
@@ -393,42 +393,42 @@
 * Enhanced min/max/rangeWords (in additional-methods.js) to strip html before counting; good when counting words in a richtext editor
 * Added localized methods for DE, NL and PT, removing the dateDE and numberDE methods (use messages_de.js and methods_de.js with date and number methods instead)
 * Fixed remote form submit synchronization, kudos to Matas Petrikas
-* Improved interactive select validation, now validating also on click (via option or select, inconsistent across browsers); doesn't work in Safari, which doesn't trigger a click event at all on select elements; fixes http://plugins.jquery.com/node/11520
-* Updated to latest form plugin (2.36), fixing http://plugins.jquery.com/node/11487
-* Bind to blur event for equalTo target to revalidate when that target changes, fixes http://plugins.jquery.com/node/11450
-* Simplified select validation, delegating to jQuery's val() method to get the select value; should fix http://plugins.jquery.com/node/11239
-* Fixed default message for digits (http://plugins.jquery.com/node/9853)
-* Fixed issue with cached remote message (http://plugins.jquery.com/node/11029 and http://plugins.jquery.com/node/9351)
-* Fixed a missing semicolon in additional-methods.js (http://plugins.jquery.com/node/9233)
-* Added automatic detection of substitution parameters in messages, removing the need to provide format functions (http://plugins.jquery.com/node/11195)
-* Fixed an issue with :filled/:blank somewhat caused by Sizzle (http://plugins.jquery.com/node/11144)
-* Added an integer method to additional-methods.js (http://plugins.jquery.com/node/9612)
-* Fixed errorsFor method where the for-attribute contains characters that need escaping to be valid inside a selector (http://plugins.jquery.com/node/9611)
+* Improved interactive select validation, now validating also on click (via option or select, inconsistent across browsers); doesn't work in Safari, which doesn't trigger a click event at all on select elements; fixes https://plugins.jquery.com/node/11520
+* Updated to latest form plugin (2.36), fixing https://plugins.jquery.com/node/11487
+* Bind to blur event for equalTo target to revalidate when that target changes, fixes https://plugins.jquery.com/node/11450
+* Simplified select validation, delegating to jQuery's val() method to get the select value; should fix https://plugins.jquery.com/node/11239
+* Fixed default message for digits (https://plugins.jquery.com/node/9853)
+* Fixed issue with cached remote message (https://plugins.jquery.com/node/11029 and https://plugins.jquery.com/node/9351)
+* Fixed a missing semicolon in additional-methods.js (https://plugins.jquery.com/node/9233)
+* Added automatic detection of substitution parameters in messages, removing the need to provide format functions (https://plugins.jquery.com/node/11195)
+* Fixed an issue with :filled/:blank somewhat caused by Sizzle (https://plugins.jquery.com/node/11144)
+* Added an integer method to additional-methods.js (https://plugins.jquery.com/node/9612)
+* Fixed errorsFor method where the for-attribute contains characters that need escaping to be valid inside a selector (https://plugins.jquery.com/node/9611)
 
 1.5.5
 ---
-* Fix for http://plugins.jquery.com/node/8659
+* Fix for https://plugins.jquery.com/node/8659
 * Fixed trailing comma in messages_cs.js
 
 1.5.4
 ---
-* Fixed remote method bug (http://plugins.jquery.com/node/8658)
+* Fixed remote method bug (https://plugins.jquery.com/node/8658)
 
 1.5.3
 ---
-* Fixed a bug related to the wrapper-option, where all ancestor-elements that matched the wrapper-option where selected (http://plugins.jquery.com/node/7624)
+* Fixed a bug related to the wrapper-option, where all ancestor-elements that matched the wrapper-option where selected (https://plugins.jquery.com/node/7624)
 * Updated multipart demo to use latest jQuery UI accordion
 * Added dateNL and time methods to additionalMethods.js
 * Added Traditional Chinese (Taiwan, tw) and Kazakhstan (KK) localization
-* Moved jQuery.format (formerly String.format) to jQuery.validator.format, jQuery.format is deprecated and will be removed in 1.6 (see http://code.google.com/p/jquery-utils/issues/detail?id=15 for details)
+* Moved jQuery.format (formerly String.format) to jQuery.validator.format, jQuery.format is deprecated and will be removed in 1.6 (see https://code.google.com/p/jquery-utils/issues/detail?id=15 for details)
 * Cleaned up messages_pl.js and messages_ptbr.js (still defined messages for max/min/rangeValue, which were removed in 1.4)
-* Fixed flawed boolean logic in valid-plugin-method for multiple elements; now all elements need to be valid for a boolean-true result (http://plugins.jquery.com/node/8481)
-* Enhancement $.validator.addMethod: An undefined third message-argument won't overwrite an existing message (http://plugins.jquery.com/node/8443)
-* Enhancement to submitHandler option: When used, click events on submit buttons are captured and the submitting button is inserted into the form before calling submitHandler, and removed afterwards; keeps submit buttons intact (http://plugins.jquery.com/node/7183#comment-3585)
-* Added option validClass, default "valid", which adds that class to all valid elements, after validation (http://dev.jquery.com/ticket/2205)
-* Added creditcardtypes method to additionalMethods.js, including tests (via http://dev.jquery.com/ticket/3635)
-* Improved remote method to allow serverside message as a string, or true for valid, or false for invalid using the clientside defined message (http://dev.jquery.com/ticket/3807)
-* Improved accept method to also accept a Drupal-style comma-separated list of values (http://plugins.jquery.com/node/8580)
+* Fixed flawed boolean logic in valid-plugin-method for multiple elements; now all elements need to be valid for a boolean-true result (https://plugins.jquery.com/node/8481)
+* Enhancement $.validator.addMethod: An undefined third message-argument won't overwrite an existing message (https://plugins.jquery.com/node/8443)
+* Enhancement to submitHandler option: When used, click events on submit buttons are captured and the submitting button is inserted into the form before calling submitHandler, and removed afterwards; keeps submit buttons intact (https://plugins.jquery.com/node/7183#comment-3585)
+* Added option validClass, default "valid", which adds that class to all valid elements, after validation (https://dev.jquery.com/ticket/2205)
+* Added creditcardtypes method to additionalMethods.js, including tests (via https://dev.jquery.com/ticket/3635)
+* Improved remote method to allow serverside message as a string, or true for valid, or false for invalid using the clientside defined message (https://dev.jquery.com/ticket/3807)
+* Improved accept method to also accept a Drupal-style comma-separated list of values (https://plugins.jquery.com/node/8580)
 
 1.5.2
 ---
@@ -513,16 +513,16 @@
 1.2
 ---
 
-* Added AJAX-captcha validation example (based on http://psyrens.com/captcha/)
+* Added AJAX-captcha validation example (based on https://psyrens.com/captcha/)
 * Added remember-the-milk-demo (thanks RTM team for the permission!)
 * Added marketo-demo (thanks Glen Lipka!)
 * Added support for ajax-validation, see method "remote"; serverside returns JSON, true for valid elements, false or a String for invalid, String is used as message
 * Added highlight and unhighlight options, by default toggles errorClass on element, allows custom highlighting
 * Added valid() plugin method for easy programmatic checking of forms and fields without the need to use the validator API
 * Added rules() plugin method to read and write rules for an element (currently read only)
-* Replaced regex for email method, thanks to the contribution by Scott Gonzalez, see http://projects.scottsplayground.com/email_address_validation/
+* Replaced regex for email method, thanks to the contribution by Scott Gonzalez, see https://projects.scottsplayground.com/email_address_validation/
 * Restructured event architecture to rely solely on delegation, both improving performance, and ease-of-use for the developer (requires jquery.delegate.js)
-* Moved documentation from inline to http://docs.jquery.com/Plugins/Validation - including interactive examples for all methods
+* Moved documentation from inline to https://docs.jquery.com/Plugins/Validation - including interactive examples for all methods
 * Removed validator.refresh(), validation is now completely dynamic
 * Renamed minValue to min, maxValue to max and rangeValue to range, deprecating the previous names (to be removed in 1.3)
 * Renamed minLength to minlength, maxLength to maxlength and rangeLength to rangelength, deprecating the previous names (to be removed in 1.3)
@@ -534,7 +534,7 @@
 1.1.2
 ---
 
-* Replaced regex for URL method, thanks to the contribution by Scott Gonzalez, see http://projects.scottsplayground.com/iri/
+* Replaced regex for URL method, thanks to the contribution by Scott Gonzalez, see https://projects.scottsplayground.com/iri/
 * Improved email method to better handle unicode characters
 * Fixed error container to hide when all elements are valid, not only on form submit
 * Fixed String.format to jQuery.format (moving into jQuery namespace)

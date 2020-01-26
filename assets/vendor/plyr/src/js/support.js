@@ -66,8 +66,8 @@ const support = {
     playsinline: 'playsInline' in document.createElement('video'),
 
     // Check for mime type support against a player instance
-    // Credits: http://diveintohtml5.info/everything.html
-    // Related: http://www.leanbackplayer.com/test/h5mt.html
+    // Credits: https://diveintohtml5.info/everything.html
+    // Related: https://www.leanbackplayer.com/test/h5mt.html
     mime(inputType) {
         const [mediaType] = inputType.split('/');
         let type = inputType;

@@ -2,7 +2,7 @@
 
 _Lil' event emitter_ — add a little pub/sub
 
-EvEmitter adds publish/subscribe pattern to a browser class. It's a smaller version of [Olical/EventEmitter](https://github.com/Olical/EventEmitter). That EventEmitter is full featured, widely used, and great. This EvEmitter has just the base event functionality to power the event API in libraries like [Isotope](http://isotope.metafizzy.co), [Flickity](http://flickity.metafizzy.co), [Masonry](http://masonry.desandro.com), and [imagesLoaded](http://imagesloaded.desandro.com).
+EvEmitter adds publish/subscribe pattern to a browser class. It's a smaller version of [Olical/EventEmitter](https://github.com/Olical/EventEmitter). That EventEmitter is full featured, widely used, and great. This EvEmitter has just the base event functionality to power the event API in libraries like [Isotope](https://isotope.metafizzy.co), [Flickity](https://flickity.metafizzy.co), [Masonry](https://masonry.desandro.com), and [imagesLoaded](https://imagesloaded.desandro.com).
 
 ## API
 
@@ -106,4 +106,4 @@ emitter.emitEvent( 'rock', [ 4, 5, 6 ] )
 
 ## License
 
-EvEmitter is released under the [MIT License](http://desandro.mit-license.org/). Have at it.
+EvEmitter is released under the [MIT License](https://desandro.mit-license.org/). Have at it.

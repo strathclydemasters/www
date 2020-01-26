@@ -1,76 +1,76 @@
 /**
  * @author    ThemePunch <info@themepunch.com>
- * @link      http://www.themepunch.com/
+ * @link      https://www.themepunch.com/
  * @copyright 2016 ThemePunch
  * @version   1.0.0
  */
 
 var RsSnowAddOn = function($, slider) {
-	
+
 	if(!slider) return;
-	
+
 	// inject a static layers div if it doesn't exist
 	if(!slider.children('.tp-static-layers').length) {
-		
+
 		var staticDiv = document.createElement('div');
 		staticDiv.className = 'tp-static-layers';
 		staticDiv.style = 'pointer-events: none';
 		slider[0].appendChild(staticDiv);
-		
+
 	}
-	
+
 	var options = slider[0].opt.snow,
 		startSlide = options.startSlide,
 		endSlide = options.endSlide,
 		isPlaying,
 		inited;
-		
+
 	options = {
-		
-		selector:        '.tp-static-layers',  
-		dimension:       'self',   
-		particleMaxPer:  parseInt(options.maxNum, 10),   
-		particlaSize:    [parseFloat(options.minSize), parseFloat(options.maxSize)], 
+
+		selector:        '.tp-static-layers',
+		dimension:       'self',
+		particleMaxPer:  parseInt(options.maxNum, 10),
+		particlaSize:    [parseFloat(options.minSize), parseFloat(options.maxSize)],
 		particleOpacity: [parseFloat(options.minOpacity), parseFloat(options.maxOpacity)],
-		particleSpeed:   [parseInt(options.minSpeed, 10), parseInt(options.maxSpeed, 10)], 
-		particleSinus:   [parseInt(options.minSinus, 10), parseInt(options.maxSinus, 10)] 
-		
+		particleSpeed:   [parseInt(options.minSpeed, 10), parseInt(options.maxSpeed, 10)],
+		particleSinus:   [parseInt(options.minSinus, 10), parseInt(options.maxSinus, 10)]
+
 	};
-	
+
 	// play snow based on "startAt" and "endAt" settings
 	slider.on('revolution.slide.onchange', function(event, data) {
-		
+
 		var index = data.slideIndex;
-		
+
 		if(startSlide === 'first') startSlide = 1;
 		if(endSlide === 'last') endSlide = slider.revmaxslide();
-		
+
 		if(index >= startSlide && index <= endSlide) {
-			
+
 			if(!inited) {
 
 				slider.letItSnow(options);
 				inited = true;
-				
+
 			}
 			else if(!isPlaying) {
-				
+
 				slider.letItSnow('winter');
-				
+
 			}
-			
+
 			isPlaying = true;
-			
+
 		}
 		else if(inited) {
-			
+
 			slider.letItSnow('summer');
 			isPlaying = false;
-			
+
 		}
-		
+
 	});
-	
+
 };
 
 /* the magic */
@@ -160,5 +160,5 @@ var RsSnowAddOn = function($, slider) {
 			})
 		}
 	});
-	
+
 })(jQuery);
