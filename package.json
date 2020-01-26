@@ -18,6 +18,7 @@
   "homepage": "https://gitlab.com/strathclydemasters/www#readme",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0"
+    "@11ty/eleventy": "^0.10.0",
+    "js-yaml": "^3.13.1"
   }
 }
