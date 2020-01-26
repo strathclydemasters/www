@@ -3,7 +3,7 @@
 <section class="g-pt-20 g-pb-50 g-bg-secondary">
 	<div class="container">
 		<h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">
-			{{ page.season }} Gallery
+			{{ season }} Gallery
 		</h2>
 	</div>
 
@@ -19,9 +19,9 @@
 			{% for photo in photos %}
 				<div class="js-slide">
 					<a class="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-primary-opacity-0_8--hover--after g-transition-0_3"
-						href="javascript:;" data-fancybox="lightbox-gallery--10" data-src="/images/gallery/{{ page.season }}/{{ photo.file }}"
-						data-caption="Strathclyde Masters {{ page.season }}">
-						<img class="img-fluid" src="/images/gallery/{{ page.season }}/{{ photo.file }}" alt="{{ photo.caption }}">
+						href="javascript:;" data-fancybox="lightbox-gallery--10" data-src="/images/gallery/{{ season }}/{{ photo.file }}"
+						data-caption="Strathclyde Masters {{ season }}">
+						<img class="img-fluid" src="/images/gallery/{{ season }}/{{ photo.file }}" alt="{{ photo.caption }}">
 
 						<span class="u-block-hover__additional--fade g-color-white g-z-index-2">
 							<i class="hs-icon hs-icon-magnifier g-absolute-centered g-font-size-25"></i>
