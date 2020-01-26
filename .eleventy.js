@@ -8,4 +8,10 @@ module.exports = function( eleventyConfig ) {
 	eleventyConfig.addPassthroughCopy( 'images' );
 
 	eleventyConfig.addDataExtension( 'yml', contents => yaml.safeLoad( contents ) );
+
+	return {
+		dir: {
+			layouts: '_layouts'
+		}
+	};
 };
