@@ -9,6 +9,15 @@ module.exports = function( eleventyConfig ) {
 
 	eleventyConfig.addDataExtension( 'yml', contents => yaml.safeLoad( contents ) );
 
+	eleventyConfig.addFilter( 'where', function( array, property, value ) {
+		return array.filter( p => p[ property ] == value );
+	} );
+
+	eleventyConfig.setBrowserSyncConfig( {
+		ui: false,
+		ghostMode: false
+	} );
+
 	return {
 		dir: {
 			layouts: '_layouts'
