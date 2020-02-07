@@ -1,7 +1,7 @@
 {% assign playingVenues = 2020.venues.venues | where: 'type', 'playing' %}
 {% assign hotelVenues = 2020.venues.venues | where: 'type', 'hotel' %}
 
-{% if 2020.venues.venues %}
+{% if playingVenues %}
 	<section class="g-pt-20 g-pb-50 g-bg-secondary">
 		<div class="container">
 			<h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">
