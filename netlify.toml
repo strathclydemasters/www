@@ -1,5 +1,5 @@
 [build] # default master branch
-  command = "jekyll build --config _config.yml"
+  command = "eleventy"
 [context.preview] # 'preview' is the branch name
   command = "eleventy"
 [context.11ty] # '11ty' is the branch name
