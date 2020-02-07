@@ -1,12 +1,17 @@
 venues:
   - name: Lagoon Leisure Centre
+    type: playing
     courts:
       - name: Court 1
       - name: Court 2
 
   - name: Renfrew Sports Centre
+    type: playing
     courts:
       - name: Court 1
+
+  - name: Glynhill Hotel
+    type: hotel
 
   - date: 2019-04-05
     times:
