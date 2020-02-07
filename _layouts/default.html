@@ -242,7 +242,7 @@
 	<script src="/assets/js/helpers/hs.height-calc.js"></script>
 	<script src="/assets/js/components/hs.countdown.js"></script>
 
-	{% if page.displayMap %}
+	{% if displayMap %}
 		<script src="/assets/vendor/gmaps/gmaps.min.js"></script>
 		<script src="/assets/js/components/gmap/hs.map.js"></script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxz_u5Vo6f9sXl6vrfYO0a1zTHo_3APNU&callback=initMap" type="text/javascript"></script>
@@ -308,7 +308,7 @@
 			} );
 		} );
 
-		{% if page.displayMap %}
+		{% if displayMap %}
 			function initMap() {
 				$.HSCore.components.HSGMap.init( '.js-g-map' );
 			}
