@@ -6,6 +6,7 @@ module.exports = function( eleventyConfig ) {
 
 	eleventyConfig.addPassthroughCopy( 'assets' );
 	eleventyConfig.addPassthroughCopy( 'images' );
+	eleventyConfig.addPassthroughCopy( 'favicon' );
 
 	eleventyConfig.addDataExtension( 'yml', contents => yaml.safeLoad( contents ) );
 
