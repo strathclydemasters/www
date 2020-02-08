@@ -7,7 +7,7 @@
 	<meta name="description" content="{% if metadata.description %}{{ metadata.description }}{% else %}{{ site.metadata.description }}{% endif %} - {{ season }}">
 	<meta name="keywords" content="{% if metadata.keywords %}{{ metadata.keywords }}{% else %}{{ site.metadata.keywords }}{% endif %},{{ season }}">
 
-	{% if site.environment == 'production '%}
+	{% if site.environment == 'production' %}
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-142384640-1"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
