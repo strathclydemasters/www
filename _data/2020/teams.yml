@@ -21,8 +21,8 @@ genders:
     competitions:
       - competition: W45+
         teams:
+          - team: FIMBA GB O60 Ladies
           - team: Fusion
-          - team: GB FIMBA O60 Ladies
           - team: Glasnevin
           - team: Nunthorpe Bruins
           - team: Oxford Diamonds
