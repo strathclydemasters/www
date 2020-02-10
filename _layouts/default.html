@@ -242,6 +242,8 @@
 	<script src="/assets/js/helpers/hs.height-calc.js"></script>
 	<script src="/assets/js/components/hs.countdown.js"></script>
 
+	<script src="/assets/js/jquery.ticker.min.js"></script>
+
 	{% if displayMap %}
 		<script src="/assets/vendor/gmaps/gmaps.min.js"></script>
 		<script src="/assets/js/components/gmap/hs.map.js"></script>
@@ -254,6 +256,8 @@
 	<!-- JS Plugins Init. -->
 	<script>
 	  	$( document ).ready( function () {
+			$( '.ticker' ).ticker();
+
 			// initialization of go to
 			$.HSCore.components.HSGoTo.init( '.js-go-to' );
 
