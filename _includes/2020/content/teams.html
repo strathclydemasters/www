@@ -7,8 +7,6 @@
 				{{ season }} Teams
 			</h2>
 
-			<p>Last updated: {{ 2020.teams.lastModified | date: '%e-%b-%Y' }}</p>
-
 			<p>Any qualified referees who would be interested in officiating at this years Strathclyde Masters tournament please get in contact with <a href="mailto:officials@strathclydemasters.com">Stuart Holland</a>. We are also looking for qualified table officials to help out over the weekend.</p>
 
 			<div class="row">
@@ -49,6 +47,8 @@
 					</div>
 				{% endfor %}
 			</div>
+
+			<p>Last updated: {{ 2020.teams.lastModified | date: '%e-%b-%Y' }}</p>
 		</div>
 	</section>
 {% else %}
