@@ -40,30 +40,30 @@ venues:
             times:
               - time: '10:00'
                 competition: W45+
-                home: W45+B 4th
-                away: W45+A 3rd
+                home: Pool A third
+                away: Pool B fourth
               - time: '11:00'
                 competition: M50+
-                home: M50+A 3rd
-                away: M50+B 3rd
+                home: Pool A third
+                away: Pool B third
               - time: '12:00'
                 competition: W45+
-                home: W45+B
-                away: Winner Game 1
+                home: Pool B third
+                away: Pool A forth
               - time: '13:00'
                 competition: W45+
-                home: W45+A 1st
-                away: W45+B 2nd
+                home: Pool A first
+                away: Pool B second
               - time: '14:00'
                 competition: M50+
-                home: M50+A 1st
-                away: M50+B 2nd
+                home: Pool A first
+                away: Pool B second
               - time: '15:00'
                 competition: M60+
                 home: Severnside
                 away: Shannon Dodgers
               - time: '16:00'
-                competition: M50+ Final
+                competition: M50+ - Final
                 home:
                 away:
 
@@ -117,18 +117,18 @@ venues:
                 away: Checkmate
               - time: '13:00'
                 competition: W45+
-                home: W45+B 1st
-                away: W45+A 2nd
+                home: Pool B first
+                away: Pool A second
               - time: '14:00'
                 competition: M50+
-                home: M50+B 1st
-                away: M50+A 2nd
+                home: Pool B first
+                away: Pool A second
               - time: '15:00'
                 competition: M60+
                 home: Strathclyde Sixers
                 away: Derby Eclectic
               - time: '16:00'
-                competition: W45+ Final
+                competition: W45+ - Final
                 home:
                 away:
 
