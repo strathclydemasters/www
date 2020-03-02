@@ -23,8 +23,8 @@ module.exports = function( eleventyConfig ) {
 	} );
 
 	eleventyConfig.addFilter( 'dateFormat', function( value, format ) {
-		var moment = require( 'moment' );
-		var dateValue = new Date( value );
+		let moment = require( 'moment' );
+		let dateValue = new Date( value );
 
 		return moment( dateValue ).format( format );
 	} );
