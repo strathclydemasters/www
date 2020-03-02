@@ -72,19 +72,19 @@
 							<ul class="list-unstyled g-mt-minus-10 mb-0">
 								<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
 									<h4 class="h6 g-pr-20 mb-0">
-										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/resources/2019/Strathclyde Masters Schedule 2019.pdf" target="_blank">Fixtures</a>
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/resources/{{ site.season }}/Strathclyde Masters Fixtures {{ site.season }}.pdf" target="_blank">Fixtures</a>
 										<i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
 									</h4>
 								</li>
 								<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
 									<h4 class="h6 g-pr-20 mb-0">
-										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/resources/2019/Strathclyde Masters Rules 2019.pdf" target="_blank">Rules</a>
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/resources/{{ site.season }}/Strathclyde Masters Rules {{ site.season }}.pdf" target="_blank">Rules</a>
 										<i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
 									</h4>
 								</li>
 								<li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
 									<h4 class="h6 g-pr-20 mb-0">
-										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/resources/2019/Strathclyde Masters Waiver 2019.pdf" target="_blank">Waiver</a>
+										<a class="g-color-white-opacity-0_8 g-color-white--hover" href="/resources/{{ site.season }}/Strathclyde Masters Liability Waiver {{ site.season }}.pdf" target="_blank">Liability Waiver</a>
 										<i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
 									</h4>
 								</li>
@@ -99,7 +99,7 @@
 							<h2 class="u-heading-v2__title h6 text-uppercase mb-0">Contact Us</h2>
 						</div>
 
-						<form name="contact" method="POST" type="application/x-www-form-urlencoded" data-netlify="true">
+						<form name="contact" method="POST" type="application/x-www-form-urlencoded" data-netlify="true" data-netlify-recaptcha="true">
 							<input name="subject" type="hidden" value="Strathclyde Masters Website Enquiry">
 
 							<div class="row">
@@ -129,6 +129,8 @@
 									</div>
 
 									<div class="col-md-4 col-lg-12">
+										<div data-netlify-recaptcha="true"></div>
+
 										<button class="btn u-btn-primary btn-block g-font-size-12 text-uppercase g-font-weight-600 g-rounded-50 g-py-15 g-px-35" type="submit" role="button">Send your message</button>
 									</div>
 								</div>

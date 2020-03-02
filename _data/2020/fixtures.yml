@@ -1,0 +1,200 @@
+lastModified: 2020-02-24
+venues:
+  - venue: Lagoon Leisure Centre
+    courts:
+      - court: Court 1
+        dates:
+          - date: 2020-03-27
+            times:
+              - time: '20:00'
+                competition: M50+A
+                home: Strathclyde
+                away: Galway
+          - date: 2020-03-28
+            times:
+              - time: '12:00'
+                competition: W45+B
+                home: Glasnevin
+                away: Rochdale Rockettes
+              - time: '13:00'
+                competition: W45+A
+                home: Fusion
+                away: GB Ladies
+              - time: '14:00'
+                competition: W45+B
+                home: Glasnevin
+                away: Nunthorpe Bruins
+              - time: '15:00'
+                competition: W45+A
+                home: Strathclyde
+                away: Fusion
+              - time: '16:00'
+                competition: W45+B
+                home: Rochdale Rockettes
+                away: Oxford Diamonds
+              - time: '17:00'
+                competition: W45+A
+                home: Strathclyde
+                away: GB Ladies
+          - date: 2020-03-29
+            times:
+              - time: '10:00'
+                competition: W45+
+                home: Pool A third
+                away: Pool B fourth
+              - time: '11:00'
+                competition: M50+
+                home: Pool A third
+                away: Pool B third
+              - time: '12:00'
+                competition: W45+
+                home: Pool B third
+                away: Pool A forth
+              - time: '13:00'
+                competition: W45+
+                home: Pool A first
+                away: Pool B second
+              - time: '14:00'
+                competition: M50+
+                home: Pool A first
+                away: Pool B second
+              - time: '15:00'
+                competition: M60+
+                home: Severnside
+                away: Shannon Dodgers
+              - time: '16:00'
+                competition: M50+ - Final
+                home:
+                away:
+
+      - court: Court 2
+        dates:
+          - date: 2020-03-27
+            times:
+              - time: '20:00'
+                competition: M60+
+                home: Strathclyde Sixers
+                away: Shannon Dodgers
+          - date: 2020-03-28
+            times:
+              - time: '12:00'
+                competition: W45+B
+                home: Oxford Diamonds
+                away: Nunthorpe Bruins
+              - time: '13:00'
+                competition: M60+
+                home: Severnside
+                away: Checkmate
+              - time: '14:00'
+                competition: M60+
+                home: Derby Eclectic
+                away: Shannon Dodgers
+              - time: '15:00'
+                competition: M60+
+                home: Severnside
+                away: Strathclyde Sixers
+              - time: '16:00'
+                competition: M60+
+                home: Derby Eclectic
+                away: Checkmate
+              - time: '17:00'
+                competition:
+                home:
+                away:
+          - date: 2020-03-29
+            times:
+              - time: '10:00'
+                competition: M60+
+                home: Checkmate
+                away: Shannon Dodgers
+              - time: '11:00'
+                competition: M60+
+                home: Severnside
+                away: Derby Eclectic
+              - time: '12:00'
+                competition: M60+
+                home: Strathclyde Sixers
+                away: Checkmate
+              - time: '13:00'
+                competition: W45+
+                home: Pool B first
+                away: Pool A second
+              - time: '14:00'
+                competition: M50+
+                home: Pool B first
+                away: Pool A second
+              - time: '15:00'
+                competition: M60+
+                home: Strathclyde Sixers
+                away: Derby Eclectic
+              - time: '16:00'
+                competition: W45+ - Final
+                home:
+                away:
+
+  - venue: Renfrew Sports Centre
+    courts:
+      - court: Court 3
+        dates:
+          - date: 2020-03-27
+            times:
+              - time: '20:00'
+                competition:
+                home:
+                away:
+          - date: 2020-03-28
+            times:
+              - time: '12:00'
+                competition: M50+B
+                home: Rathmines
+                away: Aberdeen
+              - time: '13:00'
+                competition: M50+A
+                home: Hoopstars
+                away: Galway
+              - time: '14:00'
+                competition: M50+B
+                home: Rochdale Rockets
+                away: Rathmines
+              - time: '15:00'
+                competition: M50+A
+                home: Hoopstars
+                away: Strathclyde
+              - time: '16:00'
+                competition: M50+B
+                home: Rochdale Rockets
+                away: Aberdeen
+              - time: '17:00'
+                competition:
+                home:
+                away:
+          - date: 2020-03-29
+            times:
+              - time: '10:00'
+                competition:
+                home:
+                away:
+              - time: '11:00'
+                competition:
+                home:
+                away:
+              - time: '12:00'
+                competition:
+                home:
+                away:
+              - time: '13:00'
+                competition:
+                home:
+                away:
+              - time: '14:00'
+                competition:
+                home:
+                away:
+              - time: '15:00'
+                competition:
+                home:
+                away:
+              - time: '16:00'
+                competition:
+                home:
+                away:
