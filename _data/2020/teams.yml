@@ -1,17 +1,14 @@
-lastModified: 2020-02-24
+lastModified: 2020-03-10
 genders:
   - gender: Men
     competitions:
-      - competition: M50+A
-        teams:
-          - team: Galway
-          - team: Hoopstars
-          - team: Strathclyde
-      - competition: M50+B
+      - competition: M50+
         teams:
           - team: Aberdeen
+          - team: Galway
           - team: Rathmines
           - team: Rochdale Rockets
+          - team: Strathclyde
       - competition: M60+
         teams:
           - team: Checkmate

@@ -1,4 +1,4 @@
-lastModified: 2020-02-24
+lastModified: 2020-03-10
 venues:
   - venue: Lagoon Leisure Centre
     courts:
@@ -7,7 +7,7 @@ venues:
           - date: 2020-03-27
             times:
               - time: '20:00'
-                competition: M50+A
+                competition: M50
                 home: Strathclyde
                 away: Galway
           - date: 2020-03-28
@@ -44,8 +44,8 @@ venues:
                 away: Pool B fourth
               - time: '11:00'
                 competition: M50+
-                home: Pool A third
-                away: Pool B third
+                home: Rochdale Rockets
+                away: Rathmines
               - time: '12:00'
                 competition: W45+
                 home: Pool B third
@@ -56,16 +56,16 @@ venues:
                 away: Pool B second
               - time: '14:00'
                 competition: M50+
-                home: Pool A first
+                home: Rockets Rockets
                 away: Pool B second
               - time: '15:00'
                 competition: M60+
                 home: Severnside
                 away: Shannon Dodgers
               - time: '16:00'
-                competition: M50+ - Final
-                home:
-                away:
+                competition: M50+
+                home: Strathclyde
+                away: Aberdeen
 
       - court: Court 2
         dates:
@@ -121,8 +121,8 @@ venues:
                 away: Pool A second
               - time: '14:00'
                 competition: M50+
-                home: Pool B first
-                away: Pool A second
+                home: Galway
+                away: Rathmines
               - time: '15:00'
                 competition: M60+
                 home: Strathclyde Sixers
@@ -145,25 +145,25 @@ venues:
           - date: 2020-03-28
             times:
               - time: '12:00'
-                competition: M50+B
-                home: Rathmines
-                away: Aberdeen
-              - time: '13:00'
-                competition: M50+A
-                home: Hoopstars
+                competition: M50+
+                home: Aberdeen
                 away: Galway
-              - time: '14:00'
-                competition: M50+B
-                home: Rochdale Rockets
+              - time: '13:00'
+                competition: M50
+                home: Strathclyde
                 away: Rathmines
+              - time: '14:00'
+                competition: M50+
+                home: Galway
+                away: Rochdale Rockets
               - time: '15:00'
-                competition: M50+A
-                home: Hoopstars
-                away: Strathclyde
+                competition: M50
+                home: Aberdeen
+                away: Rathmines
               - time: '16:00'
-                competition: M50+B
-                home: Rochdale Rockets
-                away: Aberdeen
+                competition: M50+
+                home: Strathclyde
+                away: Rochdale Rockets
               - time: '17:00'
                 competition:
                 home:
