@@ -2,13 +2,7 @@
 const yaml = require( 'js-yaml' );
 
 module.exports = function( eleventyConfig ) {
-/*
-	let { Liquid } = require( 'liquidjs' );
-	let engine = new Liquid();
-
-	eleventyConfig.setLibrary( 'liquid', engine );
-*/
-
+	eleventyConfig.setQuietMode( true );
 	eleventyConfig.setTemplateFormats( 'html,md' );
 
 	eleventyConfig.addPassthroughCopy( 'assets' );
