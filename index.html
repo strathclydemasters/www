@@ -21,8 +21,15 @@ endDate: '2020-03-29'
 	<div class="g-mt-150 g-absolute-centered--y g-left-0 g-right-0 mx-5 u-bg-overlay__inner text-center g-color-white">
 		<h2 class="h2 g-color-white g-font-weight-700 g-font-size-35 g-font-size-55--md text-center text-uppercase">Strathclyde Masters<br>Basketball Tournament</h2>
 
-		<h3 class="h3 g-font-weight-700 g-font-size-20 g-font-size-30--md g-mb-50">{{ startDate | dateFormat: 'ddd, Do' }} - {{ endDate | dateFormat: 'ddd, Do MMMM YYYY' }}</h3>
+		<h3 class="h3 g-font-weight-700 g-font-size-20 g-font-size-30--md g-mb-50"><s>{{ startDate | dateFormat: 'ddd, Do' }} - {{ endDate | dateFormat: 'ddd, Do MMMM YYYY' }}</s></h3>
 
+		<h2 class="h2 g-color-white g-font-weight-700 g-font-size-35 g-font-size-55--md text-center text-uppercase">Cancelled due to<br>Coronavirus (COVID-19)</h2>
+
+		<a class="h3 g-color-white g-color-white--hover" href="https://www.basketballengland.co.uk/news/coronavirus-basketball-england-to-suspend-all-basketball-activity-for-two-weeks/">Basketball England Press Release</a>
+		<br>
+		<a class="h3 g-color-white g-color-white--hover" href="http://basketballscotland.co.uk/2020/03/13/competition_postponed/">Basketball Scotland Press Release</a>
+
+{% comment %}
 		<p class="lead g-mb-40">The Strathclyde Masters is the premier basketball tournament in Scotland for men over 50, men over 60 and women over 45</p>
 
 		<div class="js-countdown text-center text-uppercase g-mb-70" data-end-date="{{ startDate }}"
@@ -48,4 +55,5 @@ endDate: '2020-03-29'
 				<span class="g-font-size-default">Seconds</span>
 			</div>
 		</div>
+{% endcomment %}
 </section>
