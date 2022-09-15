@@ -1,4 +1,6 @@
 [build] # default master branch
+  publish = "_site"
   command = "ELEVENTY_ENV=production eleventy"
 [context.preview] # 'preview' is the branch name
+  publish = "_site"
   command = "ELEVENTY_ENV=preview eleventy"
