@@ -12,6 +12,8 @@ module.exports = function( eleventyConfig ) {
 
 	eleventyConfig.addDataExtension( 'yml', contents => yaml.safeLoad( contents ) );
 
+	eleventyConfig.addShortcode( 'year', () => `${ new Date().getFullYear() }`);
+
 	eleventyConfig.addFilter( 'where', function( array, property, value ) {
 		return array.filter( p => p[ property ] == value );
 	} );
