@@ -1,14 +1,6 @@
 {% assign playingVenues = 2020.venues.venues | where: 'type', 'playing' %}
 {% assign hotelVenues = 2020.venues.venues | where: 'type', 'hotel' %}
 
-<section class="g-pt-20 g-pb-50 g-bg-secondary">
-	<div class="container">
-
-		<h2 class="h2 g-color-black g-font-weight-700 g-font-size-35 g-font-size-55--md text-center text-uppercase">Cancelled due to<br>Coronavirus (COVID-19)</h2>
-	</div>
-</section>
-
-{% comment %}
 {% if playingVenues %}
 	<section class="g-pt-20 g-pb-50 g-bg-secondary">
 		<div class="container">
@@ -67,4 +59,3 @@
 		</div>
 	</section>
 {% endif%}
-{% endcomment %}
