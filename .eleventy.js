@@ -5,10 +5,10 @@ module.exports = function( eleventyConfig ) {
 	eleventyConfig.setQuietMode( true );
 	eleventyConfig.setTemplateFormats( 'html,md' );
 
-	eleventyConfig.addPassthroughCopy( 'assets' );
-	eleventyConfig.addPassthroughCopy( 'images' );
-	eleventyConfig.addPassthroughCopy( 'favicon' );
-	eleventyConfig.addPassthroughCopy( 'resources' );
+	eleventyConfig.addPassthroughCopy( './src/assets' );
+	eleventyConfig.addPassthroughCopy( './src/images' );
+	eleventyConfig.addPassthroughCopy( './src/favicon' );
+	eleventyConfig.addPassthroughCopy( './src/resources' );
 
 	eleventyConfig.addDataExtension( 'yml', contents => yaml.safeLoad( contents ) );
 
