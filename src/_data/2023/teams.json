@@ -1,0 +1,97 @@
+{
+    "lastModified": "2020-03-10T00:00:00.000Z",
+    "genders": [
+        {
+            "gender": "Men",
+            "competitions": [
+                {
+                    "competition": "M40+",
+                    "teams": [
+                        {
+                            "team": "Ayr Storm"
+                        },
+                        {
+                            "team": "Leith Honey Badgers"
+                        },
+                        {
+                            "team": "Troon Tornadoes"
+                        }
+                    ]
+                },
+                {
+                    "competition": "M50+A",
+                    "teams": [
+                        {
+                            "team": "Bournemouth"
+                        },
+                        {
+                            "team": "Rathmines"
+                        },
+                        {
+                            "team": "Strathclyde"
+                        }
+                    ]
+                },
+                {
+                    "competition": "M50+B",
+                    "teams": [
+                        {
+                            "team": "Aberdeen"
+                        },
+                        {
+                            "team": "Galway"
+                        },
+                        {
+                            "team": "Rochdale Rockets"
+                        }
+                    ]
+                },
+                {
+                    "competition": "M60+",
+                    "teams": [
+                        {
+                            "team": "Derby Ecletic"
+                        },
+                        {
+                            "team": "Rochdale Rockets"
+                        },
+                        {
+                            "team": "Severnside"
+                        },
+                        {
+                            "team": "Shannon Dodgers"
+                        },
+                        {
+                            "team": "Strathclyde Sixers"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "gender": "Women",
+            "competitions": [
+                {
+                    "competition": "W50+",
+                    "teams": [
+                        {
+                            "team": "Fusion"
+                        },
+                        {
+                            "team": "Glasnevin"
+                        },
+                        {
+                            "team": "Nunthorpe Bruins"
+                        },
+                        {
+                            "team": "Oxford Diamonds"
+                        },
+                        {
+                            "team": "Strathclyde"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -19,12 +19,16 @@ endDate: '2023-04-01'
 	</div>
 
 	<div class="g-mt-25 g-absolute-centered--y g-left-0 g-right-0 mx-5 u-bg-overlay__inner text-center g-color-white">
-		<h2 class="h2 g-color-white g-font-weight-700 g-font-size-35 g-font-size-55--md text-center text-uppercase">7th Strathclyde Masters<br>Basketball Tournament</h2>
+		<h2 class="h2 g-color-white g-font-weight-700 g-font-size-35 g-font-size-55--md text-center text-uppercase">8th Strathclyde Masters<br>Basketball Tournament</h2>
 
+		<h3 class="h3 g-font-weight-700 g-font-size-20 g-font-size-30--md g-mb-50">Dates to be announced</h3>
+		{% comment %}
 		<h3 class="h3 g-font-weight-700 g-font-size-20 g-font-size-30--md g-mb-50">{{ startDate | dateFormat: 'ddd, Do MMMM' }} - {{ endDate | dateFormat: 'ddd, Do MMMM YYYY' }}</h3>
+		{% endcomment %}
 
-		<p class="lead g-mb-40">The Strathclyde Masters is the premier basketball tournament in Scotland for men over 50, men over 60 and women over 45</p>
+		<p class="lead g-mb-40">The Strathclyde Masters is the premier basketball tournament in Scotland for men over 40, 50, 60 and women over 50</p>
 
+		{% comment %}
 		<div class="js-countdown text-center text-uppercase g-mb-70" data-end-date="{{ startDate }}"
 			data-month-format="%m" data-days-format="%D" data-hours-format="%H" data-minutes-format="%M"
 			data-seconds-format="%S">
@@ -51,5 +55,6 @@ endDate: '2023-04-01'
 
 		<p class="lead g-mb-40 ">This is a small tournament with a maximum of 6/8 teams in each section. Each team will get a minimum of 3 games with finalists get 4 games.
 		Showing an interest does not guarantee you entry to tournament, and you will be notified if your team has been successful. As long as a male player is 60, 50 or ladies player 50 in the year 2023 then they can play in the appropriate age group. The cost of the tournament is £200. All tournament games will be played in the one venue, The Lagoon Leisure Centre. This will necessitate some games being played on the Friday evening with the games tipping off at 7.00/7.30pm. In your expression of interest please indicate your availability to play a Friday evening game.</p>
+		{% endcomment %}
 	</div>
 </section>
