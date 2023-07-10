@@ -1,8 +1,8 @@
 ---
 layout: default.html
 
-startDate: '2023-03-31 20:00'
-endDate: '2023-04-01'
+startDate: '2024-04-05 20:00'
+endDate: '2023-04-07'
 ---
 
 <section class="g-pos-rel g-overflow-hidden u-bg-overlay g-bg-black-opacity-0_6--after g-bg-img-hero">
@@ -21,14 +21,19 @@ endDate: '2023-04-01'
 	<div class="g-mt-25 g-absolute-centered--y g-left-0 g-right-0 mx-5 u-bg-overlay__inner text-center g-color-white">
 		<h2 class="h2 g-color-white g-font-weight-700 g-font-size-35 g-font-size-55--md text-center text-uppercase">8th Strathclyde Masters<br>Basketball Tournament</h2>
 
-		<h3 class="h3 g-font-weight-700 g-font-size-20 g-font-size-30--md g-mb-50">Dates to be announced</h3>
-		{% comment %}
+		{% comment %}<h3 class="h3 g-font-weight-700 g-font-size-20 g-font-size-30--md g-mb-50">Dates to be announced</h3>{% endcomment %}
+
 		<h3 class="h3 g-font-weight-700 g-font-size-20 g-font-size-30--md g-mb-50">{{ startDate | dateFormat: 'ddd, Do MMMM' }} - {{ endDate | dateFormat: 'ddd, Do MMMM YYYY' }}</h3>
-		{% endcomment %}
+
+		<!-- <h2 style="background-color: white;"><a href="#contact">Contact us to express your interest in attending</a></h2> -->
 
 		<p class="lead g-mb-40">The Strathclyde Masters is the premier basketball tournament in Scotland for men over 40, 50, 60 and women over 50</p>
 
-		{% comment %}
+		<div class="offset-md-3 col-6 g-mb-40">
+			<button class="btn u-btn-primary btn-block g-font-size-20 text-uppercase g-font-weight-600 g-rounded-50 g-py-15 g-px-35" role="button"><a style="color: white;" href="#contact">Contact us to express your interest in attending</a></button>
+		</div>
+
+		{% comment %}{% endcomment %}
 		<div class="js-countdown text-center text-uppercase g-mb-70" data-end-date="{{ startDate }}"
 			data-month-format="%m" data-days-format="%D" data-hours-format="%H" data-minutes-format="%M"
 			data-seconds-format="%S">
@@ -53,8 +58,6 @@ endDate: '2023-04-01'
 			</div>
 		</div>
 
-		<p class="lead g-mb-40 ">This is a small tournament with a maximum of 6/8 teams in each section. Each team will get a minimum of 3 games with finalists get 4 games.
-		Showing an interest does not guarantee you entry to tournament, and you will be notified if your team has been successful. As long as a male player is 60, 50 or ladies player 50 in the year 2023 then they can play in the appropriate age group. The cost of the tournament is £200. All tournament games will be played in the one venue, The Lagoon Leisure Centre. This will necessitate some games being played on the Friday evening with the games tipping off at 7.00/7.30pm. In your expression of interest please indicate your availability to play a Friday evening game.</p>
-		{% endcomment %}
+		<p class="lead g-mb-40 ">This is a small tournament with a maximum of 6/8 teams in each section. Each team will get a minimum of 3 games with finalists get 4 games. Expressing an interest does not guarantee you entry to tournament, and you will be notified if your team has been successful. As long as a player is at least 40, 50 or 60 before the end of the year {{ site.season }} then they can play in the appropriate age group. The cost of the tournament is yet to be confirmed. All tournament games will be played in the one venue, The Lagoon Leisure Centre. This will necessitate some games being played on the Friday evening. In your expression of interest please indicate your availability to play a Friday evening game.</p>
 	</div>
 </section>
