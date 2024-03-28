@@ -1,0 +1,369 @@
+{
+    "lastModified": "2024-03-17T00:00:00.000Z",
+    "venues": [
+        {
+            "venue": "Lagoon Leisure Centre",
+            "courts": [
+                {
+                    "court": "Court 1",
+                    "dates": [
+                        {
+                            "date": "2024-04-05T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "19:30",
+                                    "competition": "M40+",
+                                    "home": "Troon",
+                                    "away": "Paisley BC"
+                                },
+                                {
+                                    "time": "20:30",
+                                    "competition": "M65+",
+                                    "home": "Sixers",
+                                    "away": "Over Sport Italia"
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-04-06T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "10:00",
+                                    "competition": "W50+",
+                                    "home": "Nunthorpe Bruins",
+                                    "away": "Fusion"
+                                },
+                                {
+                                    "time": "11:00",
+                                    "competition": "W50+",
+                                    "home": "Glasnevin",
+                                    "away": "Oxford"
+                                },
+                                {
+                                    "time": "12:00",
+                                    "competition": "W50+",
+                                    "home": "Fusion",
+                                    "away": "Strathclyde"
+                                },
+                                {
+                                    "time": "13:00",
+                                    "competition": "W50+",
+                                    "home": "Glasnevin",
+                                    "away": "Nunthorpe"
+                                },
+                                {
+                                    "time": "14:00",
+                                    "competition": "W50+",
+                                    "home": "Strathclyde",
+                                    "away": "Oxford"
+                                },
+                                {
+                                    "time": "15:00",
+                                    "competition": "M60+",
+                                    "home": "Strathclyde",
+                                    "away": "Rathmines"
+                                },
+                                {
+                                    "time": "16:00",
+                                    "competition": "W50+",
+                                    "home": "Nunthorpe",
+                                    "away": "Oxford"
+                                },
+                                {
+                                    "time": "17:00",
+                                    "competition": "M60+",
+                                    "home": "Strathclyde",
+                                    "away": "Strollers"
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-04-07T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "10:00",
+                                    "competition": "M50+",
+                                    "home": "Galway",
+                                    "away": "Rochdale"
+                                },
+                                {
+                                    "time": "11:00",
+                                    "competition": "W50+",
+                                    "home": "Glasnevin",
+                                    "away": "Fusion"
+                                },
+                                {
+                                    "time": "12:00",
+                                    "competition": "W50+",
+                                    "home": "Strathclyde",
+                                    "away": "Nunthorpe"
+                                },
+                                {
+                                    "time": "13:00",
+                                    "competition": "W50+",
+                                    "home": "Fusion",
+                                    "away": "Oxford"
+                                },
+                                {
+                                    "time": "14:00",
+                                    "competition": "W50+",
+                                    "home": "Strathclyde",
+                                    "away": "Glasnevin"
+                                },
+                                {
+                                    "time": "15:00",
+                                    "competition": "Bob Taff 3pt Shoot Out",
+                                    "home": null,
+                                    "away": null
+                                },
+                                {
+                                    "time": "16:00",
+                                    "competition": "M60+",
+                                    "home": "M60+ Finalist 1",
+                                    "away": "M60+ Finalist 2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "court": "Court 2",
+                    "dates": [
+                        {
+                            "date": "2024-04-05T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "19:30",
+                                    "competition": "M60+B",
+                                    "home": "Dream Team",
+                                    "away": "Old Basket"
+                                },
+                                {
+                                    "time": "20:30",
+                                    "competition": "M40+",
+                                    "home": "Towers",
+                                    "away": "Warriors"
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-04-06T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "10:00",
+                                    "competition": "M60+B",
+                                    "home": "Rochdale",
+                                    "away": "Old Basket"
+                                },
+                                {
+                                    "time": "11:00",
+                                    "competition": "M50+",
+                                    "home": "Bald Eagle",
+                                    "away": "Towers"
+                                },
+                                {
+                                    "time": "12:00",
+                                    "competition": "M60+B",
+                                    "home": "Rochdale",
+                                    "away": "Dream Team"
+                                },
+                                {
+                                    "time": "13:00",
+                                    "competition": "M60+A",
+                                    "home": "Rathmines",
+                                    "away": "Strollers"
+                                },
+                                {
+                                    "time": "14:00",
+                                    "competition": "M65+",
+                                    "home": "Severnside",
+                                    "away": "Strathclyde"
+                                },
+                                {
+                                    "time": "15:00",
+                                    "competition": "M65+",
+                                    "home": "Dodgers",
+                                    "away": "Over Sport"
+                                },
+                                {
+                                    "time": "16:00",
+                                    "competition": "M50+",
+                                    "home": "Aberdeen",
+                                    "away": "Rochdale"
+                                },
+                                {
+                                    "time": "17:00",
+                                    "competition": "M65+",
+                                    "home": "Severnside",
+                                    "away": "Dodgers"
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-04-07T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "10:00",
+                                    "competition": "M40+",
+                                    "home": "Paisley BC",
+                                    "away": "Bald Eagles"
+                                },
+                                {
+                                    "time": "11:00",
+                                    "competition": "M65+",
+                                    "home": "Over Sport  Italia",
+                                    "away": "Severnside"
+                                },
+                                {
+                                    "time": "12:00",
+                                    "competition": "M65+",
+                                    "home": "Strathclyde Sixers",
+                                    "away": "Dodgers"
+                                },
+                                {
+                                    "time": "13:00",
+                                    "competition": "M50+",
+                                    "home": "Strathclyde",
+                                    "away": "Aberdeen"
+                                },
+                                {
+                                    "time": "14:00",
+                                    "competition": "M60+",
+                                    "home": "M60+ A 1st",
+                                    "away": "M60+ B 2nd"
+                                },
+                                {
+                                    "time": "15:00",
+                                    "competition": "M40+",
+                                    "home": "Troon",
+                                    "away": "Towers"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "venue": "Lagoon Leisure Centre",
+            "courts": [
+                {
+                    "court": "Arena",
+                    "dates": [
+                        {
+                            "date": "2024-04-05T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "19:30",
+                                    "competition": null,
+                                    "home": null,
+                                    "away": null
+                                },
+                                {
+                                    "time": "20:30",
+                                    "competition": null,
+                                    "home": null,
+                                    "away": null
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-04-06T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "10:00",
+                                    "competition": "M50+",
+                                    "home": "Barrio",
+                                    "away": "Aberdeen"
+                                },
+                                {
+                                    "time": "11:00",
+                                    "competition": "M40+",
+                                    "home": "Warriors",
+                                    "away": "Troon"
+                                },
+                                {
+                                    "time": "12:00",
+                                    "competition": "M50+",
+                                    "home": "Strathclyde",
+                                    "away": "Galway"
+                                },
+                                {
+                                    "time": "13:00",
+                                    "competition": "M40+",
+                                    "home": "Troon",
+                                    "away": "Bald Eagles"
+                                },
+                                {
+                                    "time": "14:00",
+                                    "competition": "M50+",
+                                    "home": "Strathclyde",
+                                    "away": "Rochdale"
+                                },
+                                {
+                                    "time": "15:00",
+                                    "competition": "M40+",
+                                    "home": "Paisley BC",
+                                    "away": "Towers"
+                                },
+                                {
+                                    "time": "16:00",
+                                    "competition": "M50+",
+                                    "home": "Galway",
+                                    "away": "Barrio"
+                                },
+                                {
+                                    "time": "17:00",
+                                    "competition": "M40+",
+                                    "home": "Paisley BC",
+                                    "away": "Warriors"
+                                }
+                            ]
+                        },
+                        {
+                            "date": "2024-04-07T00:00:00.000Z",
+                            "times": [
+                                {
+                                    "time": "10:00",
+                                    "competition": "M60+",
+                                    "home": "M60+ A 3rd",
+                                    "away": "M60+ B 3rd"
+                                },
+                                {
+                                    "time": "11:00",
+                                    "competition": "M50+",
+                                    "home": "Strathclyde",
+                                    "away": "Barrio"
+                                },
+                                {
+                                    "time": "12:00",
+                                    "competition": "M40+",
+                                    "home": "Bald Eagles",
+                                    "away": "Warriors"
+                                },
+                                {
+                                    "time": "13:00",
+                                    "competition": "M50+",
+                                    "home": "Barrio",
+                                    "away": "Rochdale"
+                                },
+                                {
+                                    "time": "14:00",
+                                    "competition": "M60+",
+                                    "home": "M60+ B 1st",
+                                    "away": "M60+ A 2nd"
+                                },
+                                {
+                                    "time": "15:00",
+                                    "competition": "M50+",
+                                    "home": "Aberdeen",
+                                    "away": "Galway"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+  }
