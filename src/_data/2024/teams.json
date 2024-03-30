@@ -1,5 +1,5 @@
 {
-    "lastModified": "2024-03-17T00:00:00.000Z",
+    "lastModified": "2024-03-30",
     "genders": [
         {
             "gender": "Men",
@@ -15,7 +15,7 @@
                     ]
                 },
                 {
-                    "competition": "M50",
+                    "competition": "M50+",
                     "teams": [
                         { "team": "Aberdeen" },
                         { "team": "Barrio" },
@@ -25,17 +25,11 @@
                     ]
                 },
                 {
-                    "competition": "M60+A",
+                    "competition": "M60+",
                     "teams": [
                         { "team": "Rathmines" },
                         { "team": "Strathclyde" },
-                        { "team": "Strollers" }
-                    ]
-                },
-                {
-                    "competition": "M60+B",
-                    "teams": [
-                        { "team": "Dream Team" },
+                        { "team": "Strollers" },
                         { "team": "Old Basket Venice" },
                         { "team": "Rochdale Rockets" }
                     ]

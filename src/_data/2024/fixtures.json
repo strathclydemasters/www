@@ -1,5 +1,5 @@
 {
-    "lastModified": "2024-03-17T00:00:00.000Z",
+    "lastModified": "2024-03-30",
     "venues": [
         {
             "venue": "Lagoon Leisure Centre",
@@ -66,8 +66,8 @@
                                 {
                                     "time": "16:00",
                                     "competition": "W50+",
-                                    "home": "Nunthorpe",
-                                    "away": "Oxford"
+                                    "home": "Strathclyde",
+                                    "away": "Glasnevin"
                                 },
                                 {
                                     "time": "17:00",
@@ -84,31 +84,31 @@
                                     "time": "10:00",
                                     "competition": "M50+",
                                     "home": "Galway",
-                                    "away": "Rochdale"
+                                    "away": "Rochdale Rockets"
                                 },
                                 {
                                     "time": "11:00",
+                                    "competition": "W50+",
+                                    "home": "Nunthorpe Bruins",
+                                    "away": "Oxford"
+                                },
+                                {
+                                    "time": "12:00",
                                     "competition": "W50+",
                                     "home": "Glasnevin",
                                     "away": "Fusion"
                                 },
                                 {
-                                    "time": "12:00",
+                                    "time": "13:00",
                                     "competition": "W50+",
                                     "home": "Strathclyde",
                                     "away": "Nunthorpe"
                                 },
                                 {
-                                    "time": "13:00",
+                                    "time": "14:00",
                                     "competition": "W50+",
                                     "home": "Fusion",
                                     "away": "Oxford"
-                                },
-                                {
-                                    "time": "14:00",
-                                    "competition": "W50+",
-                                    "home": "Strathclyde",
-                                    "away": "Glasnevin"
                                 },
                                 {
                                     "time": "15:00",
@@ -119,8 +119,8 @@
                                 {
                                     "time": "16:00",
                                     "competition": "M60+",
-                                    "home": "M60+ Finalist 1",
-                                    "away": "M60+ Finalist 2"
+                                    "home": "Strathclyde",
+                                    "away": "Rochdale Rockets"
                                 }
                             ]
                         }
@@ -134,15 +134,15 @@
                             "times": [
                                 {
                                     "time": "19:30",
-                                    "competition": "M60+B",
-                                    "home": "Dream Team",
-                                    "away": "Old Basket"
+                                    "competition": "M60+",
+                                    "home": "Strathclyde",
+                                    "away": "Old Basket Venice"
                                 },
                                 {
                                     "time": "20:30",
                                     "competition": "M40+",
-                                    "home": "Towers",
-                                    "away": "Warriors"
+                                    "home": "Tyrone Towers",
+                                    "away": "West Coast Warriors"
                                 }
                             ]
                         },
@@ -151,27 +151,27 @@
                             "times": [
                                 {
                                     "time": "10:00",
-                                    "competition": "M60+B",
-                                    "home": "Rochdale",
-                                    "away": "Old Basket"
+                                    "competition": "M60+",
+                                    "home": "Rochdale Rockets",
+                                    "away": "Old Basket Venice"
                                 },
                                 {
                                     "time": "11:00",
                                     "competition": "M50+",
                                     "home": "Bald Eagle",
-                                    "away": "Towers"
+                                    "away": "Tyrone Towers"
                                 },
                                 {
                                     "time": "12:00",
-                                    "competition": "M60+B",
-                                    "home": "Rochdale",
-                                    "away": "Dream Team"
+                                    "competition": "M60+",
+                                    "home": "Rathmines",
+                                    "away": "Rochdale Rockets"
                                 },
                                 {
                                     "time": "13:00",
-                                    "competition": "M60+A",
-                                    "home": "Rathmines",
-                                    "away": "Strollers"
+                                    "competition": "M60+",
+                                    "home": "Strollers",
+                                    "away": "Old Basket Venice"
                                 },
                                 {
                                     "time": "14:00",
@@ -182,20 +182,20 @@
                                 {
                                     "time": "15:00",
                                     "competition": "M65+",
-                                    "home": "Dodgers",
-                                    "away": "Over Sport"
+                                    "home": "Shannon Dodgers",
+                                    "away": "Over Sport Italia"
                                 },
                                 {
                                     "time": "16:00",
                                     "competition": "M50+",
                                     "home": "Aberdeen",
-                                    "away": "Rochdale"
+                                    "away": "Rochdale Rockets"
                                 },
                                 {
                                     "time": "17:00",
                                     "competition": "M65+",
                                     "home": "Severnside",
-                                    "away": "Dodgers"
+                                    "away": "Shannon Dodgers"
                                 }
                             ]
                         },
@@ -211,14 +211,14 @@
                                 {
                                     "time": "11:00",
                                     "competition": "M65+",
-                                    "home": "Over Sport  Italia",
+                                    "home": "Over Sport Italia",
                                     "away": "Severnside"
                                 },
                                 {
                                     "time": "12:00",
-                                    "competition": "M65+",
-                                    "home": "Strathclyde Sixers",
-                                    "away": "Dodgers"
+                                    "competition": "M60+",
+                                    "home": "Rathmines",
+                                    "away": "Strollers"
                                 },
                                 {
                                     "time": "13:00",
@@ -228,15 +228,15 @@
                                 },
                                 {
                                     "time": "14:00",
-                                    "competition": "M60+",
-                                    "home": "M60+ A 1st",
-                                    "away": "M60+ B 2nd"
+                                    "competition": "M50+",
+                                    "home": "Strathclyde",
+                                    "away": "Shannon Dodgers"
                                 },
                                 {
                                     "time": "15:00",
                                     "competition": "M40+",
                                     "home": "Troon",
-                                    "away": "Towers"
+                                    "away": "Tyrone Towers"
                                 }
                             ]
                         }
@@ -279,7 +279,7 @@
                                 {
                                     "time": "11:00",
                                     "competition": "M40+",
-                                    "home": "Warriors",
+                                    "home": "West Coast Warriors",
                                     "away": "Troon"
                                 },
                                 {
@@ -298,13 +298,13 @@
                                     "time": "14:00",
                                     "competition": "M50+",
                                     "home": "Strathclyde",
-                                    "away": "Rochdale"
+                                    "away": "Rochdale Rockets"
                                 },
                                 {
                                     "time": "15:00",
                                     "competition": "M40+",
                                     "home": "Paisley BC",
-                                    "away": "Towers"
+                                    "away": "Tyrone Towers"
                                 },
                                 {
                                     "time": "16:00",
@@ -316,7 +316,7 @@
                                     "time": "17:00",
                                     "competition": "M40+",
                                     "home": "Paisley BC",
-                                    "away": "Warriors"
+                                    "away": "West Coast Warriors"
                                 }
                             ]
                         },
@@ -326,8 +326,8 @@
                                 {
                                     "time": "10:00",
                                     "competition": "M60+",
-                                    "home": "M60+ A 3rd",
-                                    "away": "M60+ B 3rd"
+                                    "home": "Rathmines",
+                                    "away": "Old Basket Venice"
                                 },
                                 {
                                     "time": "11:00",
@@ -339,19 +339,19 @@
                                     "time": "12:00",
                                     "competition": "M40+",
                                     "home": "Bald Eagles",
-                                    "away": "Warriors"
+                                    "away": "West Coast Warriors"
                                 },
                                 {
                                     "time": "13:00",
                                     "competition": "M50+",
                                     "home": "Barrio",
-                                    "away": "Rochdale"
+                                    "away": "Rochdale Rockets"
                                 },
                                 {
                                     "time": "14:00",
                                     "competition": "M60+",
-                                    "home": "M60+ B 1st",
-                                    "away": "M60+ A 2nd"
+                                    "home": "Rochdale Rockets",
+                                    "away": "Strollers"
                                 },
                                 {
                                     "time": "15:00",
