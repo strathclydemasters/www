@@ -41,7 +41,7 @@
 												<td>
 													{%- if time.competition -%}
 														{%- if time.home -%}
-															{{ time.competition }} - {{ time.home }} v {{ time.away }}
+															{{ time.competition }} - {{ time.home }} {% if time.homeScore %} ({{ time.homeScore}}{% endif %} v {% if time.awayScore %}{{ time.awayScore}}){% endif %} {{ time.away }}
 														{%- else -%}
 															{{ time.competition }}
 														{%- endif -%}
