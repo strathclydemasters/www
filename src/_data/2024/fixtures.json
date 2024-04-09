@@ -1,5 +1,5 @@
 {
-    "lastModified": "2024-04-07",
+    "lastModified": "2024-04-09",
     "venues": [
         {
             "venue": "Lagoon Leisure Centre",
@@ -153,8 +153,8 @@
                                     "competition": "M60+",
                                     "home": "Strathclyde",
                                     "away": "Rochdale Rockets",
-                                    "homeScore": null,
-                                    "awayScore": null
+                                    "homeScore": 24,
+                                    "awayScore": 57
                                 }
                             ]
                         }
@@ -285,8 +285,8 @@
                                     "competition": "M50+",
                                     "home": "Strathclyde",
                                     "away": "Aberdeen",
-                                    "homeScore": null,
-                                    "awayScore": null
+                                    "homeScore": 27,
+                                    "awayScore": 38
                                 },
                                 {
                                     "time": "14:00",
@@ -301,8 +301,8 @@
                                     "competition": "M40+",
                                     "home": "Troon",
                                     "away": "Tyrone Towers",
-                                    "homeScore": null,
-                                    "awayScore": null
+                                    "homeScore": 27,
+                                    "awayScore": 18
                                 }
                             ]
                         }
@@ -454,8 +454,8 @@
                                     "competition": "M50+",
                                     "home": "Aberdeen",
                                     "away": "Galway",
-                                    "homeScore": null,
-                                    "awayScore": null
+                                    "homeScore": 40,
+                                    "awayScore": 28
                                 }
                             ]
                         }
