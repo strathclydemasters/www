@@ -1,0 +1,67 @@
+{% comment %}
+{% endcomment %}
+{% assign playingVenues = 2024.venues.venues | where: 'type', 'playing' %}
+{% assign hotelVenues = 2024.venues.venues | where: 'type', 'hotel' %}
+
+{% if playingVenues %}
+	<section class="g-pt-20 g-pb-50 g-bg-secondary">
+		<div class="container">
+			<h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">
+				{{ season }} Playing Venue
+			</h2>
+
+			<div class="row">
+				{% for venue in playingVenues %}
+					<div class="col-md-6">
+						<address>
+							<a href="{{ venue.website }}" target="_blank">{{ venue.name }}</a><br>
+							{{ venue.address }}<br>
+							{{ venue.postcode }}
+						</address>
+
+						<div id="{{ venue.mapID }}" class="js-g-map embed-responsive embed-responsive-16by9" data-lat="{{ venue.latitude }}" data-lng="{{ venue.longitude }}" data-title="{{ venue.name }}" data-pin="true"></div>
+					</div>
+				{% endfor %}
+			</div>
+
+			<h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4 g-mt-20">
+				{{ season }} Tournament Hotel &amp; Gala Dinner Venue
+			</h2>
+
+			<div class="row">
+				{% for venue in hotelVenues %}
+					<div class="col-md-6">
+						<address>
+							<a href="{{ venue.website }}" target="_blank">{{ venue.name }}</a><br>
+							{{ venue.address }}<br>
+							{{ venue.postcode }}
+						</address>
+
+						<div id="{{ venue.mapID }}" class="js-g-map embed-responsive embed-responsive-16by9" data-lat="{{ venue.latitude }}" data-lng="{{ venue.longitude }}" data-title="{{ venue.name }}" data-pin="true"></div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% else %}
+	<section class="u-bg-overlay g-bg-black-opacity-0_6--after g-bg-img-hero g-py-200--md g-py-80"
+		style="background-image: url(/images/gallery/2019/56443021_10217219207525211_7349401204868251648_o.jpg);">
+		<div class="container u-bg-overlay__inner text-center g-color-white">
+			<div class="row">
+				<div class="col-md-10 ml-md-auto mr-md-auto">
+					<h3 class="g-font-weight-700 g-font-size-40 g-font-size-55--md text-uppercase g-mb-40 fadeInUp u-in-viewport" data-animation="fadeInUp" data-animation-delay="800" data-animation-duration="1500" style="animation-duration: 1500ms;">
+						{{ season }} playing venues to be announced
+					</h3>
+
+					<div class="g-mb-25 fadeInUp u-in-viewport" data-animation="fadeInUp" data-animation-delay="500" data-animation-duration="1500" style="animation-duration: 1500ms;">
+						{% comment %}<h2 class="h4 d-inline-block g-brd-bottom g-brd-2 g-brd-white g-color-white g-font-weight-600 text-uppercase g-pb-5">Invitations to Register coming soon...</h2>{% endcomment %}
+
+						<div class="offset-md-3 col-6 g-mb-40">
+							<button class="btn u-btn-primary btn-block g-font-size-20 text-uppercase g-font-weight-600 g-rounded-50 g-py-15 g-px-35" role="button"><a style="color: white;" href="#contact">Contact us to express your interest in attending</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif%}
