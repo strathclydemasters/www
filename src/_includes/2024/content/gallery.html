@@ -1,22 +1,41 @@
-<section class="u-bg-overlay g-bg-black-opacity-0_6--after g-bg-img-hero g-py-200--md g-py-80"
-	style="background-image: url(/images/gallery/2019/56481865_10217234055176393_7072872578783641600_o.jpg);">
-	<div class="container u-bg-overlay__inner text-center g-color-white">
-		<div class="row">
-			<div class="col-md-10 ml-md-auto mr-md-auto">
-				<h3 class="g-font-weight-700 g-font-size-40 g-font-size-55--md text-uppercase g-mb-40 fadeInUp u-in-viewport" data-animation="fadeInUp" data-animation-delay="800" data-animation-duration="1500" style="animation-duration: 1500ms;">
-					{{ season }} gallery coming after the event
-				</h3>
+{% assign photos = 2024.gallery.images %}
 
-				{% comment %}
-				<div class="g-mb-25 fadeInUp u-in-viewport" data-animation="fadeInUp" data-animation-delay="500" data-animation-duration="1500" style="animation-duration: 1500ms;">
-					<h2 class="h4 d-inline-block g-brd-bottom g-brd-2 g-brd-white g-color-white g-font-weight-600 text-uppercase g-pb-5">Invitations to Register coming soon...</h2>
+<section class="g-pt-20 g-pb-50 g-bg-secondary">
+	<div class="container">
+		<h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">
+			{{ season }} Gallery
+		</h2>
+	</div>
 
-					<div class="offset-md-3 col-6 g-mb-40">
-						<button class="btn u-btn-primary btn-block g-font-size-20 text-uppercase g-font-weight-600 g-rounded-50 g-py-15 g-px-35" role="button"><a style="color: white;" href="#contact">Contact us to express your interest in attending</a></button>
-					</div>
-				</div>
-				{% endcomment %}
-			</div>
+	<div class="container">
+		<div class="js-carousel text-center g-font-size-0 g-pb-20" data-infinite="true" data-center-padding="60px" data-slides-show="5" data-slides-scroll="5" data-rows="3" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-40 g-height-40 g-font-size-18 g-color-white g-bg-primary" data-arrow-left-classes="fa fa-angle-left g-left-0" data-arrow-right-classes="fa fa-angle-right g-right-0" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-0" data-responsive='[{
+			"breakpoint": 768,
+			"settings": {
+			"slidesToShow": 2,
+			"slidesToScroll": 2,
+			"centerPadding": 0
+			}
+		}]'>
+			{% for photo in photos %}
+				{%- assign sourceImage = photo.file -%}
+				{%- assign caption = photo.caption -%}
+
+				{% image sourceImage, caption %}
+
+				{% comment %}<div class="js-slide">
+					<a class="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-primary-opacity-0_8--hover--after g-transition-0_3"
+						href="javascript:;" data-fancybox="lightbox-gallery--10" data-src="{{ photo.file }}"
+						data-caption="Strathclyde Masters {{ season }}">
+						<!-- <img class="img-fluid" src="/img/RNRIul5M0s-300.jpeg" alt="{{ photo.caption }}"> -->
+
+						{% image sourceImage, "", "300" %}
+
+						<span class="u-block-hover__additional--fade g-color-white g-z-index-2">
+							<i class="hs-icon hs-icon-magnifier g-absolute-centered g-font-size-25"></i>
+						</span>
+					</a>
+				</div>{% endcomment %}
+			{% endfor %}
 		</div>
 	</div>
 </section>
