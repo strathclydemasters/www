@@ -19,7 +19,11 @@
 							{{ venue.postcode }}
 						</address>
 
-						<div id="{{ venue.mapID }}" class="js-g-map embed-responsive embed-responsive-16by9" data-lat="{{ venue.latitude }}" data-lng="{{ venue.longitude }}" data-title="{{ venue.name }}" data-pin="true"></div>
+						<div id="{{ venue.mapID }}" class="embed-responsive embed-responsive-16by9"></div>
+
+						<script>
+							displayMap( '{{ venue.mapID }}', {{ venue.latitude }}, {{ venue.longitude }}, 14 );
+						</script>
 					</div>
 				{% endfor %}
 			</div>
@@ -37,7 +41,11 @@
 							{{ venue.postcode }}
 						</address>
 
-						<div id="{{ venue.mapID }}" class="js-g-map embed-responsive embed-responsive-16by9" data-lat="{{ venue.latitude }}" data-lng="{{ venue.longitude }}" data-title="{{ venue.name }}" data-pin="true"></div>
+						<div id="{{ venue.mapID }}" class="embed-responsive embed-responsive-16by9"></div>
+
+						<script>
+							displayMap( '{{ venue.mapID }}', {{ venue.latitude }}, {{ venue.longitude }}, 14 );
+						</script>
 					</div>
 				{% endfor %}
 			</div>
