@@ -1,7 +1,7 @@
 {% comment %}
+{% assign playingVenues = 2025.venues.venues | where: 'type', 'playing' %}
+{% assign hotelVenues = 2025.venues.venues | where: 'type', 'hotel' %}
 {% endcomment %}
-{% assign playingVenues = 2024.venues.venues | where: 'type', 'playing' %}
-{% assign hotelVenues = 2024.venues.venues | where: 'type', 'hotel' %}
 
 {% if playingVenues %}
 	<section class="g-pt-20 g-pb-50 g-bg-secondary">

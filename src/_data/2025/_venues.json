@@ -1,0 +1,35 @@
+{
+    "venues": [
+        {
+            "name": "Lagoon Leisure Centre",
+            "type": "playing",
+            "website": "https://www.renfrewshireleisure.com/lagoon-leisure-centre/",
+            "address": "11 Christie Street<br>Renfrew<br>Scotland",
+            "postcode": "PA1 1NB",
+            "mapID": "LagoonMap",
+            "latitude": 55.8455362,
+            "longitude": -4.4152753,
+            "courts": [
+                {
+                    "name": "Court 1"
+                },
+                {
+                    "name": "Court 2"
+                },
+                {
+                    "name": "Arena"
+                }
+            ]
+        },
+        {
+            "name": "Glynhill Hotel and Leisure Club",
+            "type": "hotel",
+            "website": "https://www.glynhill.com/",
+            "address": "169 Paisley Road<br>Renfrew<br>Scotland",
+            "postcode": "PA4 8XB",
+            "mapID": "GlynhillMap",
+            "latitude": 55.864413,
+            "longitude": -4.4046378
+        }
+    ]
+}
