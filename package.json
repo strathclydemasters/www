@@ -21,10 +21,10 @@
   "homepage": "https://gitlab.com/strathclydemasters/www#readme",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
     "js-yaml": "^3.13.1"
   },
   "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-img": "^4.0.2",
     "moment": "^2.24.0"
   }
