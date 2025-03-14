@@ -22,6 +22,21 @@
             ]
         },
         {
+            "name": "Renfrew Leisure Centre",
+            "type": "playing",
+            "website": "https://www.oneren.org/venues/leisure-venues/renfrew-leisure-centre/",
+            "address": "Paisley Road<br>Renfrew<br>Scotland",
+            "postcode": "PA4 8LJ<br>",
+            "mapID": "RenfrewMap",
+            "latitude": 55.8690748,
+            "longitude": -4.3991554,
+            "courts": [
+                {
+                    "name": "Court 1"
+                }
+            ]
+        },
+        {
             "name": "Glynhill Hotel and Leisure Club",
             "type": "hotel",
             "website": "https://www.glynhill.com/",
