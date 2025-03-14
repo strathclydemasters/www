@@ -9,10 +9,10 @@
 
 			<p>Any qualified referees who would be interested in officiating at this years Strathclyde Masters tournament please get in contact with <a href="mailto:officials@strathclydemasters.com">Stuart Holland</a>. We are also looking for qualified table officials to help out over the weekend.</p>
 
-			<div class="row">
-				{% for team in teams %}
-					{% assign competitions = team.competitions %}
+			{% for team in teams %}
+				{% assign competitions = team.competitions %}
 
+				<div class="row g-mb-30">
 					<div class="col">
 						<div class="card g-brd-primary rounded-0">
 							<h3 class="card-header g-bg-primary g-brd-transparent g-color-white g-font-size-16 rounded-0 mb-0">
@@ -45,8 +45,8 @@
 							</div>
 						</div>
 					</div>
-				{% endfor %}
-			</div>
+				</div>
+			{% endfor %}
 
 			<p>Last updated: {{ 2025.teams.lastModified | date: '%e-%b-%Y' }}</p>
 		</div>
