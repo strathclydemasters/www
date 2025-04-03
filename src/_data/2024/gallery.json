@@ -1,35 +1,35 @@
 {
     "images": [
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/O50 Ladies Winners  NunThorpe Bruins.jpg",
+            "file": "./src/images/gallery/2024/O50_Ladies_Winners_NunThorpe_Bruins.jpg",
             "caption": "Strathclyde Masters 2024: NunThorpe Bruins W50+ winners"
         },
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/O50M  Rochdale & Strathclyde.jpg",
+            "file": "./src/images/gallery/2024/O50M_Rochdale_&_Strathclyde.jpg",
             "caption": "Strathclyde Masters 2024: Rochdale and Strathclyde M50+"
         },
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/O50M  Strathclyde.jpg",
+            "file": "./src/images/gallery/2024/O50M_Strathclyde.jpg",
             "caption": "Strathclyde Masters 2024: Strathclyde M50+"
         },
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/O65M  Severnside & Over Sport, Italy .jpg",
+            "file": "./src/images/gallery/2024/O65M_Severnside_&_Over_Sport_Italy.jpg",
             "caption": "Strathclyde Masters 2024: Severnsaide and Over Sport M65+"
         },
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/O65M  Severnside.jpg",
+            "file": "./src/images/gallery/2024/O65M_Severnside.jpg",
             "caption": "Strathclyde Masters 2024: Severnside M65+"
         },
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/Sixers & Over Sport , Italy.jpg",
+            "file": "./src/images/gallery/2024/Sixers_&_Over_Sport_Italy.jpg",
             "caption": "Strathclyde Masters 2024: Sixers and Over Sport M65+"
         },
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/IMG_4163.jpg",
+            "file": "./src/images/gallery/2024/IMG_4163.jpg",
             "caption": "Strathclyde Masters 2024"
         },
         {
-            "file": "https://strathclydemasters.conceptpreview.com/images/2024/IMG_4167.jpg",
+            "file": "./src/images/gallery/2024/IMG_4167.jpg",
             "caption": "Strathclyde Masters 2024 - Old Basket Venice M60+ winners"
         }
     ]
