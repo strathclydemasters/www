@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "rm -rf ./_site && npm run dev:eleventy",
+    "dev:eleventy": "npx @11ty/eleventy --input ./src/ --serve",
     "build": "npm run eleventy",
-    "eleventy": "npx @11ty/eleventy --input ./src/ ",
-    "dev": "rm -rf ./_site && npm run dev:eleventy",
-    "dev:eleventy": "npx @11ty/eleventy --input ./src/ --serve"
+    "eleventy": "npx @11ty/eleventy --input ./src/ "
   },
   "repository": {
     "type": "git",
