@@ -42,7 +42,7 @@
 												<td>
 													{%- if time.competition -%}
 														{%- if time.home -%}
-															{{ time.competition }} - {{ time.home }} {% if time.homeScore > 0 %} ({{ time.homeScore}}{% endif %} {% if time.away != '' %} v {% endif%}{% if time.awayScore > 0 %}{{ time.awayScore}}){% endif %} {{ time.away }}
+															{{ time.competition }} {{ time.home }} {% if time.homeScore > 0 %} ({{ time.homeScore}}{% endif %} {% if time.away != '' %} v {% endif%}{% if time.awayScore > 0 %}{{ time.awayScore}}){% endif %} {{ time.away }}
 														{%- else -%}
 															{{ time.competition }}
 														{%- endif -%}
@@ -59,6 +59,109 @@
 					{%- endfor -%}
 				</div>
 			{%- endfor -%}
+
+
+{%- comment -%}
+
+			{%- assign competitionFixtures = 2025.competitionFixtures -%}
+
+			{%- for competitions in competitionFixtures -%}
+
+				<pre>{{ competitions.competition }}</pre>
+
+				{%- assign fixtures = competitions.fixtures -%}
+
+
+
+				{%- for fixture in fixtures -%}
+
+					<pre>1 {{ fixture }}</pre>
+					<pre>2 {{ fixture.fixture.homeTeamName }}</pre>
+
+				{%- endfor -%}
+
+			{%- endfor -%}
+
+
+			<div class="card g-brd-primary rounded-0">
+				<h3 class="card-header g-bg-primary g-brd-transparent g-color-white g-font-size-16 rounded-0 mb-0">
+					<i class="fa fa-male g-mr-5"></i>
+					Men
+				</h3>
+
+				<div class="card-block table-responsive g-pa-15">
+					<table class="table u-table--v1 mb-0">
+						<thead>
+							<tr class="g-col-border-top-0">
+								<th>M40+A</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td>
+									Grizzlies<br>
+									Reformatori Veterans<br>
+									Tyrone Towers<br>
+								</td>
+								<td>
+									Bald Eagles<br>
+									Teeside Warriors<br>
+									Troon Tornadoes<br>
+								</td>
+
+									<td>
+
+											Athens Veterans<br>
+
+											Cobham Cobras<br>
+
+											Irish Masters<br>
+
+									</td>
+
+									<td>
+
+											Galway<br>
+
+											San Severino<br>
+
+											Strathclyde<br>
+
+									</td>
+
+									<td>
+
+											Celtic Warriors<br>
+
+											Maxi Basket Milano<br>
+
+											Strathclyde<br>
+
+											The Wine Geese<br>
+
+									</td>
+
+									<td>
+
+											Maxi Basket Milano<br>
+
+											Sevenside<br>
+
+											Shannon Dodgers<br>
+
+											Stortford Strollers<br>
+
+											Strathclyde Sixers<br>
+
+									</td>
+
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+{%- endcomment -%}
 
 			<p>Last updated: {{ 2025.fixtures.lastModified | date: '%e-%b-%Y' }}</p>
 		</div>
