@@ -1,0 +1,190 @@
+{%- assign venues = 2026.fixtures.venues -%}
+
+{%- if venues -%}
+	<section class="g-pt-20 g-pb-50 g-bg-secondary">
+		<div class="container">
+			<h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">
+				{{ season }} Fixtures
+			</h2>
+
+				{%- for venue in venues -%}
+					{%- assign courts = venue.courts -%}
+
+					<div class="row">
+
+					{%- for court in courts -%}
+						{%- assign dates = court.dates -%}
+
+						<div class="col-md ml-md-auto mr-md-auto">
+							<table class="table table-striped table-sm">
+								<thead>
+									<tr>
+										<th colspan="2">
+											<h3>{{ venue.venue }}</h3>
+											<h5>{{ court.court }}</h5>
+										</th>
+									</tr>
+								</thead>
+
+								{%- for date in dates -%}
+									{%- assign times = date.times -%}
+
+									<thead>
+										<tr>
+											<th colspan="2">{{ date.date | date: "%A, %e %B" }}</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										{%- for time in times -%}
+											<tr>
+												<td>{{ time.time }}</td>
+												<td>
+													{%- if time.competition -%}
+														{%- if time.home -%}
+															{{ time.competition }} {{ time.home }} {% if time.homeScore > 0 %} ({{ time.homeScore}}{% endif %} {% if time.away != '' %} v {% endif%}{% if time.awayScore > 0 %}{{ time.awayScore}}){% endif %} {{ time.away }}
+														{%- else -%}
+															{{ time.competition }}
+														{%- endif -%}
+													{%- else -%}
+														&nbsp;
+													{%- endif-%}
+												</td>
+											</tr>
+										{%- endfor -%}
+									{%- endfor -%}
+								</tbody>
+							</table>
+						</div>
+					{%- endfor -%}
+				</div>
+			{%- endfor -%}
+
+
+{%- comment -%}
+
+			{%- assign competitionFixtures = 2026.competitionFixtures -%}
+
+			{%- for competitions in competitionFixtures -%}
+
+				<pre>{{ competitions.competition }}</pre>
+
+				{%- assign fixtures = competitions.fixtures -%}
+
+
+
+				{%- for fixture in fixtures -%}
+
+					<pre>1 {{ fixture }}</pre>
+					<pre>2 {{ fixture.fixture.homeTeamName }}</pre>
+
+				{%- endfor -%}
+
+			{%- endfor -%}
+
+
+			<div class="card g-brd-primary rounded-0">
+				<h3 class="card-header g-bg-primary g-brd-transparent g-color-white g-font-size-16 rounded-0 mb-0">
+					<i class="fa fa-male g-mr-5"></i>
+					Men
+				</h3>
+
+				<div class="card-block table-responsive g-pa-15">
+					<table class="table u-table--v1 mb-0">
+						<thead>
+							<tr class="g-col-border-top-0">
+								<th>M40+A</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td>
+									Grizzlies<br>
+									Reformatori Veterans<br>
+									Tyrone Towers<br>
+								</td>
+								<td>
+									Bald Eagles<br>
+									Teeside Warriors<br>
+									Troon Tornadoes<br>
+								</td>
+
+									<td>
+
+											Athens Veterans<br>
+
+											Cobham Cobras<br>
+
+											Irish Masters<br>
+
+									</td>
+
+									<td>
+
+											Galway<br>
+
+											San Severino<br>
+
+											Strathclyde<br>
+
+									</td>
+
+									<td>
+
+											Celtic Warriors<br>
+
+											Maxi Basket Milano<br>
+
+											Strathclyde<br>
+
+											The Wine Geese<br>
+
+									</td>
+
+									<td>
+
+											Maxi Basket Milano<br>
+
+											Sevenside<br>
+
+											Shannon Dodgers<br>
+
+											Stortford Strollers<br>
+
+											Strathclyde Sixers<br>
+
+									</td>
+
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+{%- endcomment -%}
+
+			<p>Last updated: {{ 2026.fixtures.lastModified | date: '%e-%b-%Y' }}</p>
+		</div>
+	</section>
+{%- else -%}
+	<section class="u-bg-overlay g-bg-black-opacity-0_6--after g-bg-img-hero g-py-200--md g-py-80"
+		style="background-image: url(/images/gallery/2019/56604987_10217218058976498_3911666362757414912_o.jpg);">
+		<div class="container u-bg-overlay__inner text-center g-color-white">
+			<div class="row">
+				<div class="col-md-10 ml-md-auto mr-md-auto">
+					<h3 class="g-font-weight-700 g-font-size-40 g-font-size-55--md text-uppercase g-mb-40 fadeInUp u-in-viewport" data-animation="fadeInUp" data-animation-delay="800" data-animation-duration="1500" style="animation-duration: 1500ms;">
+						{{ season }} playing schedule to be announced
+					</h3>
+
+					<div class="g-mb-25 fadeInUp u-in-viewport" data-animation="fadeInUp" data-animation-delay="500" data-animation-duration="1500" style="animation-duration: 1500ms;">
+						{% comment %}<h2 class="h4 d-inline-block g-brd-bottom g-brd-2 g-brd-white g-color-white g-font-weight-600 text-uppercase g-pb-5">Invitations to Register coming soon...</h2>{% endcomment %}
+
+						<div class="offset-md-3 col-6 g-mb-40">
+							<button class="btn u-btn-primary btn-block g-font-size-20 text-uppercase g-font-weight-600 g-rounded-50 g-py-15 g-px-35" role="button"><a style="color: white;" href="#contact">Contact us to express your interest in attending</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{%- endif -%}

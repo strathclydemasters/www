@@ -1,0 +1,51 @@
+{% assign photos = 2026.gallery.images %}
+
+<section class="g-pt-20 g-pb-50 g-bg-secondary">
+	<div class="container">
+		<h2 class="g-color-black g-font-weight-600 g-font-size-25 g-font-size-35--lg g-line-height-1_2 mb-4">
+			{{ season }} Gallery
+		</h2>
+	</div>
+
+	{% if photos %}
+		<div class="container">
+			<div class="js-carousel text-center g-font-size-0 g-pb-20" data-infinite="true" data-center-padding="60px" data-slides-show="5" data-slides-scroll="5" data-rows="3" data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-40 g-height-40 g-font-size-18 g-color-white g-bg-primary" data-arrow-left-classes="fa fa-angle-left g-left-0" data-arrow-right-classes="fa fa-angle-right g-right-0" data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-0" data-responsive='[{
+				"breakpoint": 768,
+				"settings": {
+				"slidesToShow": 2,
+				"slidesToScroll": 2,
+				"centerPadding": 0
+				}
+			}]'>
+				{% for photo in photos %}
+					{%- assign sourceImage = photo.file -%}
+					{%- assign caption = photo.caption -%}
+
+					{% image sourceImage, caption %}
+
+					{% comment %}<div class="js-slide">
+						<a class="js-fancybox d-block u-block-hover u-bg-overlay g-bg-black-opacity-0_3--after g-bg-primary-opacity-0_8--hover--after g-transition-0_3"
+							href="javascript:;" data-fancybox="lightbox-gallery--10" data-src="{{ photo.file }}"
+							data-caption="Strathclyde Masters {{ season }}">
+							<!-- <img class="img-fluid" src="/img/RNRIul5M0s-300.jpeg" alt="{{ photo.caption }}"> -->
+
+							{% image sourceImage, "", "300" %}
+
+							<span class="u-block-hover__additional--fade g-color-white g-z-index-2">
+								<i class="hs-icon hs-icon-magnifier g-absolute-centered g-font-size-25"></i>
+							</span>
+						</a>
+					</div>{% endcomment %}
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="mt-5 g-left-0 g-right-0 mx-5 text-center">
+			<p class="h3 g-font-weight-700 g-mb-20">For more pictures, <a href="https://www.flickr.com/photos/strathclyde_masters/albums/72177720326443357/" target="_blank">visit our Flickr page</a></p>
+		</div>
+	{% else %}
+		<div class="mt-5 g-left-0 g-right-0 mx-5 text-center">
+			<p class="h3 g-font-weight-700 g-mb-20">For pictures of past tournaments, <a href="https://www.flickr.com/photos/strathclyde_masters/albums/72177720326443357/" target="_blank">visit our Flickr page</a></p>
+		</div>
+	{% endif %}
+</section>
