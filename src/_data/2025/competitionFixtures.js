@@ -1,6 +1,6 @@
 require( 'dotenv' ).config();
 
-const EleventyFetch = require( '@11ty/eleventy-fetch' );
+const Fetch = require( '@11ty/eleventy-fetch' );
 
 switch ( process.env.ELEVENTY_ENV ) {
 	case 'development':
@@ -13,13 +13,8 @@ switch ( process.env.ELEVENTY_ENV ) {
 }
 
 module.exports = async function () {
-	return EleventyFetch( url, {
-		duration: '0d'
-		,type: 'json'
-		// ,fetchOptions: {
-		// 	headers: {
-		// 		'Authorization': process.env.API_TOKEN
-		// 	}
-		// }
+	return  await Fetch( url, {
+		duration: '0s',
+		type: 'json',
 	} );
 };

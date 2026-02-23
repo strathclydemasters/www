@@ -1,0 +1,139 @@
+{
+  "lastModified": "2026-02-23",
+  "genders": [
+    {
+      "competitions": [
+        {
+          "competition": "M40+ Group 1",
+          "teams": [
+            {
+              "team": "Aberdeen Leopards"
+            },
+            {
+              "team": "Galway"
+            },
+            {
+              "team": "Troon Tornadoes"
+            }
+          ]
+        },
+        {
+          "competition": "M40+ Group 2",
+          "teams": [
+            {
+              "team": "Bald Eagles"
+            },
+            {
+              "team": "Leith Honey Badgers"
+            },
+            {
+              "team": "West Coast Wolverines"
+            }
+          ]
+        },
+        {
+          "competition": "M50+ Group 1",
+          "teams": [
+            {
+              "team": "Adria Academy Bari"
+            },
+            {
+              "team": "Celtic Warriors"
+            },
+            {
+              "team": "Strathclyde"
+            }
+          ]
+        },
+        {
+          "competition": "M50+ Group 2",
+          "teams": [
+            {
+              "team": "Barrio"
+            },
+            {
+              "team": "Galway"
+            },
+            {
+              "team": "Maxi Basket Milano"
+            }
+          ]
+        },
+        {
+          "competition": "M60+",
+          "teams": [
+            {
+              "team": "Celtic Warriors"
+            },
+            {
+              "team": "Cobham Cobras"
+            },
+            {
+              "team": "Maxi Basket Milano"
+            },
+            {
+              "team": "Strathclyde"
+            }
+          ]
+        },
+        {
+          "competition": "M65+",
+          "teams": [
+            {
+              "team": "Maxi Basket Milano"
+            },
+            {
+              "team": "Sevenside"
+            },
+            {
+              "team": "Shannon Dodgers"
+            },
+            {
+              "team": "Strathclyde Sixers"
+            }
+          ]
+        }
+      ],
+      "gender": "Men"
+    },
+    {
+      "competitions": [
+        {
+          "competition": "W50+ Group 1",
+          "teams": [
+            {
+              "team": "Galway Girls"
+            },
+            {
+              "team": "Oxford Diamonds"
+            },
+            {
+              "team": "Strathclyde"
+            },
+            {
+              "team": "Venice Spritz"
+            }
+          ]
+        },
+        {
+          "competition": "W50+ Group 2",
+          "teams": [
+            {
+              "team": "Fusion"
+            },
+            {
+              "team": "Glasnevin"
+            },
+            {
+              "team": "Maxibasket Donne Milano"
+            },
+            {
+              "team": "Nunthorpe Bruins"
+            }
+          ]
+        }
+      ],
+      "gender": "Women"
+    }
+  ]
+}
