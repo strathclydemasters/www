@@ -4,11 +4,11 @@ const Fetch = require('@11ty/eleventy-fetch');
 
 switch ( process.env.ELEVENTY_ENV ) {
 	case 'development':
-		url = 'http://admin.strathclydemasters.localhost/api/fixtures/AF0A0A85-84D7-478A-909A2E7F51C605CA';
+		url = 'http://localhost:5177/api/fixtures/2026';
 	break;
 
 	default:
-		url = 'https://admin.strathclydemasters.com/api/fixtures/AF0A0A85-84D7-478A-909A2E7F51C605CA';
+		url = 'https://portal.strathclydemasters.com/api/fixtures/2026';
 }
 
 module.exports = async function () {

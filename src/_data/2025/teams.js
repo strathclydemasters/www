@@ -4,11 +4,11 @@ const Fetch = require( '@11ty/eleventy-fetch' );
 
 switch ( process.env.ELEVENTY_ENV ) {
 	case 'development':
-		url = 'http://admin.strathclydemasters.localhost/api/teams/2025';
+		url = 'http://localhost:5177/api/teams/2025';
 	break;
 
 	default:
-		url = 'https://admin.strathclydemasters.com/api/teams/2025';
+		url = 'https://portal.strathclydemasters.com/api/teams/2025';
 }
 
 module.exports = async function () {
