@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://strathclydemasters@gitlab.com/strathclydemasters/www.git"
+    "url": "git+https://github.com/strathclydemasters/www.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/strathclydemasters/www/issues"
+    "url": "https://github.com/strathclydemasters/www/issues"
   },
-  "homepage": "https://gitlab.com/strathclydemasters/www#readme",
+  "homepage": "https://github.com/strathclydemasters/www#readme",
   "description": "",
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
