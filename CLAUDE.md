@@ -17,10 +17,12 @@ Netlify builds on Node 22, set by `NODE_VERSION` in `netlify.toml`. Node 22 is t
 
 `ELEVENTY_ENV` controls where season data is fetched from. The local `.env` sets it to `development`; Netlify sets `production`.
 
-The current season's teams and fixtures are not stored in the repo. `src/_data/<year>/teams.js`, `fixtures.js` and `competitionFixtures.js` are one-liners that call the shared helper `src/_lib/portal.js`, which fetches JSON at build time with `@11ty/eleventy-fetch` (cache `duration: '0s'`, so every build refetches):
+The current season's teams and fixtures are not stored in the repo. `src/_data/<year>/teams.js`, `fixtures.js` and `competitionFixtures.js` are one-liners that call the shared helper `src/_lib/portal.js` with a `<year>/teams`-style path. It fetches JSON at build time from the Masters Basketball Tournaments portal API (v1, tournament slug `strathclyde-masters`) with `@11ty/eleventy-fetch` (cache `duration: '0s'`, so every build refetches). Requests send `Authorization: Bearer $PORTAL_API_KEY`, which is set in `.env` locally and in Netlify's environment variables:
 
-- `development` → tries the local portal at `http://localhost:5177/api/...` (2 second timeout). If it isn't running, the helper logs `[portal] Local API unavailable…` and falls back to production.
-- anything else → `https://portal.strathclydemasters.com/api/...`
+- `development` → tries the local portal at `http://localhost:5178/api/v1/strathclyde-masters/...` (2 second timeout). If it isn't running, the helper logs `[portal] Local API unavailable…` and falls back to production.
+- anything else → `https://portal.mastersbasketballtournaments.com/api/v1/strathclyde-masters/...`
+
+The API's schema is at `https://portal.mastersbasketballtournaments.com/api/v1/openapi.json`. Teams give the pool separately (`competition: 'M50+'`, `pool: 'Group 1'`), and `components/teams-card.html` joins them.
 
 Past seasons mostly use static JSON in `src/_data/<year>/`.
 

@@ -13,7 +13,7 @@
 			<thead>
 				<tr>
 					{% for competition in competitions %}
-						<th>{{ competition.competition }}</th>
+						<th>{{ competition.competition }}{% if competition.pool %} {{ competition.pool }}{% endif %}</th>
 					{% endfor %}
 				</tr>
 			</thead>

@@ -32,10 +32,10 @@
 									{%- when 'dashedScores' -%}
 										{{ time.competition }} - {{ time.home }} {% if time.homeScore %} ({{ time.homeScore}}{% endif %} v {% if time.awayScore %}{{ time.awayScore}}){% endif %} {{ time.away }}
 									{%- else -%}
-										{{ time.competition }} {{ time.home }} {% if time.homeScore > 0 %} ({{ time.homeScore}}{% endif %} {% if time.away != '' %} v {% endif%}{% if time.awayScore > 0 %}{{ time.awayScore}}){% endif %} {{ time.away }}
+										{{ time.competition }}{% if time.label %} {{ time.label }}:{% endif %} {{ time.home }} {% if time.homeScore > 0 %} ({{ time.homeScore}}{% endif %} {% if time.away != '' %} v {% endif%}{% if time.awayScore > 0 %}{{ time.awayScore}}){% endif %} {{ time.away }}
 								{%- endcase -%}
 							{%- else -%}
-								{{ time.competition }}
+								{{ time.competition }}{% if time.label %} {{ time.label }}{% endif %}
 							{%- endif -%}
 						{%- else -%}
 							&nbsp;

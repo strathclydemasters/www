@@ -1,3 +1,3 @@
 const portal = require( '../../_lib/portal' );
 
-module.exports = () => portal( 'fixtures/2025/competitions' );
+module.exports = () => portal( '2025/fixtures/competitions' );
