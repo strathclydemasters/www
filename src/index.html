@@ -7,7 +7,7 @@ endDate: '2026-03-15'
 cost: '£300'
 ---
 
-<section class="relative h-[calc(100svh-var(--header-height,100px))] min-h-[600px] overflow-hidden">
+<section class="relative flex min-h-[calc(100svh-var(--header-height,100px))] items-center overflow-hidden md:min-h-[max(600px,calc(100svh-var(--header-height,100px)))]">
 	<div class="absolute inset-0" data-slideshow="8000">
 		{%- assign slides = '56528995_10217219556093925_2867191515359215616_o.jpg,56403703_10217219559174002_5599682075947958272_o.jpg,56563207_10217219961144051_2769789929192947712_o.jpg' | split: ',' -%}
 
@@ -16,7 +16,7 @@ cost: '£300'
 		{% endfor %}
 	</div>
 
-	<div class="absolute inset-x-0 top-1/2 mx-[42px] mt-6 -translate-y-1/2 text-center text-white">
+	<div class="relative w-full px-[15px] pt-12 pb-2 text-center text-white md:px-[42px] md:pt-18 md:pb-6">
 		<h2 class="mb-2 text-[35px]/[1.4] font-bold uppercase md:text-[55px]">9th Strathclyde Masters<br>Basketball Tournament</h2>
 
 		{% comment %}<h3 class="mb-12.5 text-xl/[1.4] font-bold md:text-3xl">Dates to be announced</h3>{% endcomment %}
