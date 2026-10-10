@@ -1,4 +1,4 @@
-[build] # default 'master' branch
+[build] # default 'main' branch
   publish = '_site/'
   command = 'npm run build'
   environment = { ELEVENTY_ENV = 'production', NODE_VERSION = "22" } # to enable Eleventy to know the environment
