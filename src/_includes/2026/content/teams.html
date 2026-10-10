@@ -1,0 +1,20 @@
+{% assign teams = 2026.teams.genders %}
+
+{% if teams %}
+	<section class="bg-secondary pt-5 pb-12.5">
+		<div class="container">
+			<h2 class="section-title">{{ season }} Teams</h2>
+
+			<p class="mb-[14px]">Any qualified referees who would be interested in officiating at this years Strathclyde Masters tournament please get in contact with <a href="mailto:officials@strathclydemasters.com">Stuart Holland</a>. We are also looking for qualified table officials to help out over the weekend.</p>
+
+			{% for team in teams %}
+				{% include 'components/teams-card.html', gender: team.gender, competitions: team.competitions, class: 'mb-7.5' %}
+			{% endfor %}
+
+			<p class="mb-[14px]">Last updated: {{ 2026.teams.lastModified | date: '%e-%b-%Y' }}</p>
+		</div>
+	</section>
+{% else %}
+	{% capture heading %}{{ season }} Teams to be Announced{% endcapture %}
+	{% include 'components/announce.html', image: '/images/gallery/2019/56457845_10217219559614013_2471859330748514304_o.jpg', heading: heading %}
+{% endif %}

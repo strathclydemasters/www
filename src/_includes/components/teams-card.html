@@ -1,0 +1,34 @@
+{%- comment -%}
+	Card listing the teams in each competition for one gender
+	Params: gender, competitions, class (optional wrapper classes)
+{%- endcomment -%}
+<div class="border border-primary {{ class }}">
+	<h3 class="flex items-center gap-[5px] bg-primary px-[17.5px] py-[10.5px] text-base text-white">
+		{% if gender == 'Women' %}{% include 'icons/female.svg' %}{% else %}{% include 'icons/male.svg' %}{% endif %}
+		{{ gender }}
+	</h3>
+
+	<div class="overflow-x-auto p-[15px]">
+		<table class="table-teams">
+			<thead>
+				<tr>
+					{% for competition in competitions %}
+						<th>{{ competition.competition }}</th>
+					{% endfor %}
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					{% for competition in competitions %}
+						<td>
+							{% for team in competition.teams %}
+								{{ team.team }}<br>
+							{% endfor %}
+						</td>
+					{% endfor %}
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

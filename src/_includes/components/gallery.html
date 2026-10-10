@@ -1,0 +1,53 @@
+{%- comment -%}
+	Paged photo carousel: 5 columns x 3 rows on desktop, 2 columns on mobile
+	Params: photos, folder (for photos stored as bare file names), optimise (resize via eleventy-img), flickr (album URL, optional)
+{%- endcomment -%}
+<section class="bg-secondary pt-5 pb-12.5">
+	<div class="container">
+		<h2 class="section-title">{{ season }} Gallery</h2>
+	</div>
+
+	{% if photos %}
+		<div class="container">
+			<div class="relative pb-5" data-carousel>
+				<div class="grid snap-x snap-mandatory auto-cols-[50%] grid-flow-col grid-rows-3 overflow-x-auto [scrollbar-width:none] md:auto-cols-[20%] [&::-webkit-scrollbar]:hidden" data-carousel-track>
+					{% for photo in photos %}
+						{%- if optimise -%}
+							{%- assign src = photo.file | optimisedImage -%}
+						{%- else -%}
+							{%- assign src = '/images/gallery/' | append: folder | append: '/' | append: photo.file -%}
+						{%- endif -%}
+
+						{%- capture defaultCaption -%}Strathclyde Masters {{ season }}{%- endcapture -%}
+						{%- assign caption = photo.caption | default: defaultCaption -%}
+
+						<div class="snap-start">
+							{% include 'components/gallery-item.html', src: src, caption: caption %}
+						</div>
+					{% endfor %}
+				</div>
+
+				<button type="button" class="absolute top-1/2 left-0 flex size-10 -translate-y-1/2 cursor-pointer items-center justify-center bg-primary text-lg text-white" aria-label="Previous photos" data-carousel-prev>{% include 'icons/angle-left.svg' %}</button>
+				<button type="button" class="absolute top-1/2 right-0 flex size-10 -translate-y-1/2 cursor-pointer items-center justify-center bg-primary text-lg text-white" aria-label="Next photos" data-carousel-next>{% include 'icons/angle-right.svg' %}</button>
+
+				<ul class="absolute bottom-0 left-1/2 flex -translate-x-1/2" data-carousel-dots></ul>
+			</div>
+		</div>
+
+		{% if flickr %}
+			<div class="mx-12 mt-12 text-center">
+				<p class="mb-5 text-2xl font-bold">For more pictures, <a href="{{ flickr }}" target="_blank">visit our Flickr page</a></p>
+			</div>
+		{% endif %}
+	{% else %}
+		<div class="mx-auto text-center md:w-7/12">
+			<h3 class="mb-10 animate-fade-in-up text-[40px] motion-reduce:animate-none/[1.4] font-bold uppercase md:text-[55px]">
+				Picture gallery coming after the event
+			</h3>
+		</div>
+
+		<div class="mx-12 mt-12 text-center">
+			<p class="mb-5 text-2xl font-bold">For pictures of past tournaments, <a href="{{ flickr }}" target="_blank">visit our Flickr page</a></p>
+		</div>
+	{% endif %}
+</section>

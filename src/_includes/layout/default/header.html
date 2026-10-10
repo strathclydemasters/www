@@ -1,0 +1,50 @@
+<!-- Header -->
+<header id="js-header" class="group/header relative z-50 bg-white transition-[background-color,box-shadow,translate] duration-300 lg:sticky lg:top-0 data-scrolled:bg-white/70 data-scrolled:shadow-[0_5px_10px_-6px_rgba(0,0,0,0.15)] data-hidden:-translate-y-full no-print" data-header>
+	<nav class="container flex flex-wrap items-center justify-between py-[17px] transition-[padding] duration-300 lg:flex-nowrap group-data-scrolled/header:lg:py-[7px]">
+		<!-- Logo -->
+		<a href="/" class="mr-4 py-[0.3125rem]">
+			<img class="h-auto max-w-[200px] lg:max-w-none" src="/images/logo/Strathclyde-Masters-Logo.png" alt="{{ site.title }}">
+		</a>
+		<!-- End Logo -->
+
+		<!-- Responsive Toggle Button -->
+		<button class="group/toggle relative p-2 lg:hidden" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-nav-toggle>
+			<span class="block h-0.5 w-7 bg-[#555] transition-transform duration-200 group-aria-expanded/toggle:translate-y-2 group-aria-expanded/toggle:rotate-45"></span>
+			<span class="mt-1.5 block h-0.5 w-7 bg-[#555] transition-opacity duration-200 group-aria-expanded/toggle:opacity-0"></span>
+			<span class="mt-1.5 block h-0.5 w-7 bg-[#555] transition-transform duration-200 group-aria-expanded/toggle:-translate-y-2 group-aria-expanded/toggle:-rotate-45"></span>
+		</button>
+		<!-- End Responsive Toggle Button -->
+
+		<!-- Navigation -->
+		<div id="navBar" class="hidden w-full lg:ml-auto lg:block lg:w-auto lg:pt-2.5 data-open:block">
+			<ul class="flex flex-col text-[13px] font-semibold uppercase lg:flex-row lg:items-center">
+				{%- assign navItems = 'teams,fixtures,venues,rules,gallery' | split: ',' -%}
+
+				{% for navItem in navItems %}
+					{%- assign navDir = '/' | append: navItem | append: '/' -%}
+
+					<li class="mb-1.5 lg:mx-5 lg:mb-0">
+						<a href="{{ navDir }}" class="block border-b-2 py-1 text-heading hover:border-primary hover:text-heading focus:border-primary {% if page.url == navDir %}border-primary{% else %}border-transparent{% endif %}"{% if page.url == navDir %} aria-current="page"{% endif %}>{{ navItem }}</a>
+					</li>
+				{% endfor %}
+
+				<li class="group/menu relative mb-1.5 lg:mx-5 lg:mb-0" data-submenu>
+					<button type="button" class="flex w-full cursor-pointer items-center gap-1.5 border-b-2 border-transparent py-1 font-semibold text-heading uppercase group-hover/menu:border-primary group-data-open/menu:border-primary lg:w-auto" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">
+						Past Tournaments
+						<span class="text-[11px]">{% include 'icons/angle-down.svg' %}</span>
+					</button>
+
+					<ul class="hidden border-t-[3px] border-primary bg-white py-2.5 text-sm font-normal normal-case shadow-[0_6px_12px_rgba(0,0,0,0.175)] group-data-open/menu:block lg:absolute lg:top-full lg:left-0 lg:z-10 lg:w-[16.5rem] lg:group-hover/menu:block" id="nav-submenu-1" aria-labelledby="nav-link-1">
+						{%- assign pastSeasons = '2025,2024,2023,2019,2018,2017,2016,2015,2014' | split: ',' -%}
+
+						{% for pastSeason in pastSeasons %}
+							<li><a href="/{{ pastSeason }}/" class="block px-[25px] py-1.5 text-[#777] hover:text-accent">{{ pastSeason }} Tournament</a></li>
+						{% endfor %}
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- End Navigation -->
+	</nav>
+</header>
+<!-- End Header -->

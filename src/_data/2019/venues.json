@@ -1,0 +1,310 @@
+{
+    "venues": [
+        {
+            "name": "Lagoon Leisure Centre",
+            "courts": [
+                {
+                    "name": "Court 1"
+                },
+                {
+                    "name": "Court 2"
+                }
+            ]
+        },
+        {
+            "name": "Renfrew Sports Centre",
+            "courts": [
+                {
+                    "name": "Court 1"
+                }
+            ]
+        },
+        {
+            "date": "2019-04-05T00:00:00.000Z",
+            "times": [
+                {
+                    "time": 1170,
+                    "games": [
+                        {
+                            "home": "Strathclyde",
+                            "away": "Galway"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 1230,
+                    "games": [
+                        {
+                            "home": "Sixers",
+                            "away": "Shannon Dodgers"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-04-06T00:00:00.000Z",
+            "times": [
+                {
+                    "time": 660,
+                    "games": [
+                        {
+                            "home": "Derby Ecletic",
+                            "away": "Shannon Dodgers"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 720,
+                    "games": [
+                        {
+                            "home": "Glasnevin",
+                            "away": "Rochdale Rockettes"
+                        },
+                        {
+                            "home": "Pegasus",
+                            "away": "Oxford Diamonds"
+                        },
+                        {
+                            "home": "Deer Doctors",
+                            "away": "Galway"
+                        }
+                    ]
+                },
+                {
+                    "time": 780,
+                    "games": [
+                        {
+                            "home": "Rochdale Rockets",
+                            "away": "Rathmines"
+                        },
+                        {
+                            "home": "Old Warriors",
+                            "away": "Aberdeen"
+                        },
+                        {
+                            "home": "Strathclyde",
+                            "away": "London Eagles"
+                        }
+                    ]
+                },
+                {
+                    "time": 840,
+                    "games": [
+                        {
+                            "home": "Derby Ecletic",
+                            "away": "Severnside"
+                        },
+                        {
+                            "home": "Fusion",
+                            "away": "Mayo"
+                        },
+                        {
+                            "home": "Strathclyde",
+                            "away": "Nunthorpe Bruins"
+                        }
+                    ]
+                },
+                {
+                    "time": 900,
+                    "games": [
+                        {
+                            "home": "Glasnevin",
+                            "away": "Oxford Diamonds"
+                        },
+                        {
+                            "home": "Pegasus",
+                            "away": "Rochdale Rockettes"
+                        },
+                        {
+                            "home": "Deer Doctors",
+                            "away": "London Eagles"
+                        }
+                    ]
+                },
+                {
+                    "time": 960,
+                    "games": [
+                        {
+                            "home": "Strathclyde Sixers",
+                            "away": "Severnside"
+                        },
+                        {
+                            "home": "Old Warriors",
+                            "away": "Rathmines"
+                        },
+                        {
+                            "home": "Rochdale Rockets",
+                            "away": "Aberdeen"
+                        }
+                    ]
+                },
+                {
+                    "time": 1020,
+                    "games": [
+                        {
+                            "home": "Strathclyde",
+                            "away": "Fusion"
+                        },
+                        {
+                            "home": "Nunthorpe Bruins",
+                            "away": "Mayo"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "date": "2019-04-07T00:00:00.000Z",
+            "times": [
+                {
+                    "time": 600,
+                    "games": [
+                        {
+                            "home": "Glasnevin",
+                            "away": "Pegasus"
+                        },
+                        {
+                            "home": "Rochdale Rockettes",
+                            "away": "Oxford Diamonds"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 660,
+                    "games": [
+                        {
+                            "home": "Strathclyde",
+                            "away": "Mayo"
+                        },
+                        {
+                            "home": "Fusion",
+                            "away": "Nunthorpe Bruins"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 720,
+                    "games": [
+                        {
+                            "home": "Strathclyde Sixers",
+                            "away": "Derby Ecletic"
+                        },
+                        {
+                            "home": "Severnside",
+                            "away": "Shannon Dodgers"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 780,
+                    "games": [
+                        {
+                            "home": "Strathclyde",
+                            "away": "Deer Doctors"
+                        },
+                        {
+                            "home": "Galway",
+                            "away": "London Eagles"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 840,
+                    "games": [
+                        {
+                            "home": "Old Warriors",
+                            "away": "Rochdale Rockets"
+                        },
+                        {
+                            "home": "Rathmines",
+                            "away": "Aberdeen"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 900,
+                    "games": [
+                        {
+                            "home": "W45A",
+                            "away": "W45B"
+                        },
+                        {
+                            "home": "M60A",
+                            "away": "M60A"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                },
+                {
+                    "time": 960,
+                    "games": [
+                        {
+                            "home": "M50A",
+                            "away": "M50B"
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        },
+                        {
+                            "home": null,
+                            "away": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

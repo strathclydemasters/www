@@ -1,0 +1,15 @@
+---
+title: Past Season - 2025
+layout: default.html
+season: 2025
+startDate: '2025-04-04'
+endDate: '2025-04-06'
+permalink: /2025/
+---
+
+{% capture dates %}{{ startDate | dateFormat: 'ddd, Do MMMM' }} - {{ endDate | dateFormat: 'ddd, Do MMMM YYYY' }}{% endcapture %}
+{% include 'components/season-hero.html', image: '/images/gallery/2023/IMG-20230402-WA0020.jpg', dates: dates, lead: 'The Strathclyde Masters is the premier basketball tournament in Scotland for men over 40, 50, 60 and women over 50.' %}
+
+{% include '2025/content/teams.html' %}
+{% include '2025/content/fixtures.html' %}
+{% include '2025/content/gallery.html' %}

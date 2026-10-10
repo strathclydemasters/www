@@ -1,0 +1,19 @@
+{%- comment -%}
+	Past season banner
+	Params: image, dates (optional), lead
+{%- endcomment -%}
+<section class="hero" style="background-image: url({{ image }});">
+	<div class="container">
+		<div class="mx-auto md:w-10/12">
+			<h2 class="mb-5 text-4xl/[1.2] sm:text-5xl/[1.2] font-semibold uppercase">
+				Strathclyde Masters<br>Basketball Tournament<br>{{ season }}
+			</h2>
+
+			{% if dates %}
+				<h3 class="mb-5 text-2xl/[1.4] font-bold">{{ dates }}</h3>
+			{% endif %}
+
+			<p class="mb-10 text-lg font-light">{{ lead }}</p>
+		</div>
+	</div>
+</section>

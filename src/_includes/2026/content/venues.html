@@ -1,0 +1,27 @@
+{% assign playingVenues = 2026.venues.venues | where: 'type', 'playing' %}
+{% assign hotelVenues = 2026.venues.venues | where: 'type', 'hotel' %}
+
+{% if playingVenues %}
+	<section class="bg-secondary pt-5 pb-12.5">
+		<div class="container">
+			<h2 class="section-title">{{ season }} Playing Venue</h2>
+
+			<div class="grid gap-x-[30px] md:grid-cols-2">
+				{% for venue in playingVenues %}
+					{% include 'components/venue.html', venue: venue %}
+				{% endfor %}
+			</div>
+
+			<h2 class="section-title mt-5">{{ season }} Tournament Hotel &amp; Gala Dinner Venue</h2>
+
+			<div class="grid gap-x-[30px] md:grid-cols-2">
+				{% for venue in hotelVenues %}
+					{% include 'components/venue.html', venue: venue %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% else %}
+	{% capture heading %}{{ season }} playing venues to be announced{% endcapture %}
+	{% include 'components/announce.html', image: '/images/gallery/2019/56443021_10217219207525211_7349401204868251648_o.jpg', heading: heading %}
+{% endif %}

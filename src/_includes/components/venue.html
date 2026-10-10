@@ -1,0 +1,17 @@
+{%- comment -%}
+	Venue address with a map
+	Params: venue
+{%- endcomment -%}
+<div>
+	<address class="mb-[14px] not-italic">
+		<a href="{{ venue.website }}" target="_blank">{{ venue.name }}</a><br>
+		{{ venue.address }}<br>
+		{{ venue.postcode }}
+	</address>
+
+	<div id="{{ venue.mapID }}" class="aspect-video"></div>
+
+	<script>
+		displayMap( '{{ venue.mapID }}', '{{ venue.latitude }}', '{{ venue.longitude }}', 16 );
+	</script>
+</div>

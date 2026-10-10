@@ -1,0 +1,36 @@
+---
+layout: default.html
+
+startDate: '2026-03-13'
+endDate: '2026-03-15'
+
+cost: '£300'
+---
+
+<section class="relative h-[calc(100svh-var(--header-height,100px))] min-h-[600px] overflow-hidden">
+	<div class="absolute inset-0" data-slideshow="8000">
+		{%- assign slides = '56528995_10217219556093925_2867191515359215616_o.jpg,56403703_10217219559174002_5599682075947958272_o.jpg,56563207_10217219961144051_2769789929192947712_o.jpg' | split: ',' -%}
+
+		{% for slide in slides %}
+			<div class="absolute inset-0 bg-cover bg-top bg-no-repeat transition-opacity duration-[5000ms] after:absolute after:inset-0 after:bg-black/60 {% if forloop.first %}opacity-100{% else %}opacity-0{% endif %}" style="background-image: url(/images/gallery/2019/{{ slide }});"></div>
+		{% endfor %}
+	</div>
+
+	<div class="absolute inset-x-0 top-1/2 mx-[42px] mt-6 -translate-y-1/2 text-center text-white">
+		<h2 class="mb-2 text-[35px]/[1.4] font-bold uppercase md:text-[55px]">9th Strathclyde Masters<br>Basketball Tournament</h2>
+
+		{% comment %}<h3 class="mb-12.5 text-xl/[1.4] font-bold md:text-3xl">Dates to be announced</h3>{% endcomment %}
+
+		<h3 class="mb-12.5 text-xl/[1.4] font-bold md:text-3xl">{{ startDate | dateFormat: 'ddd, Do MMMM' }} - {{ endDate | dateFormat: 'ddd, Do MMMM YYYY' }}</h3>
+
+		<p class="mb-10 text-lg font-light">The Strathclyde Masters is the premier basketball tournament in Scotland for men over 40, 50, 60, 65 and women over 40 or 50</p>
+
+		{% comment %}
+		<div class="mx-auto mb-10 w-1/2">
+			<a class="btn-pill text-xl" href="#contact">Contact us to express your interest in attending</a>
+		</div>
+		{% endcomment %}
+
+		<p class="mb-10 text-lg font-light">This is a small tournament with a maximum of 6/8 teams in each section. Each team will get a minimum of 3 games with finalists get 4 games. Expressing an interest does not guarantee you entry to tournament, and you will be notified if your team has been successful. As long as a player is at least 40, 50, 60 or 65 before the end of the year {{ site.season }} then they can play in the appropriate age group. The cost of the tournament is {{ cost }}. All tournament games will be played at either the Lagoon Leisure Centre or the Renfrew Leisure Centre. This will necessitate some games being played on the Friday evening.</p>
+	</div>
+</section>

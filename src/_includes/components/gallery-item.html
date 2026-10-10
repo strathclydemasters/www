@@ -1,0 +1,10 @@
+{%- comment -%}
+	Gallery thumbnail that opens in the lightbox
+	Params: src, caption
+{%- endcomment -%}
+<a class="group relative block overflow-hidden" href="{{ src }}" data-lightbox="{{ caption }}">
+	<img class="block h-auto w-full" src="{{ src }}" alt="{{ caption }}" loading="lazy">
+	<span class="absolute inset-0 flex items-center justify-center bg-black/30 text-[25px] text-white transition-colors duration-300 group-hover:bg-primary/80">
+		<span class="opacity-0 transition-opacity duration-300 group-hover:opacity-100">{% include 'icons/magnifier.svg' %}</span>
+	</span>
+</a>

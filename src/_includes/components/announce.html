@@ -1,0 +1,23 @@
+{%- comment -%}
+	"To be announced" banner shown until a section's data is available
+	Params: image, heading, note (optional, replaces the contact button)
+{%- endcomment -%}
+<section class="hero" style="background-image: url({{ image }});">
+	<div class="container">
+		<div class="mx-auto md:w-10/12">
+			<h3 class="mb-10 animate-fade-in-up text-[40px] motion-reduce:animate-none/[1.4] font-bold uppercase md:text-[55px]">
+				{{ heading }}
+			</h3>
+
+			<div class="mb-6 animate-fade-in-up motion-reduce:animate-none">
+				{% if note %}
+					<h2 class="inline-block border-b-2 border-white pb-[5px] text-xl font-semibold uppercase">{{ note }}</h2>
+				{% else %}
+					<div class="mx-auto mb-10 w-1/2">
+						<a class="btn-pill text-xl" href="#contact">Contact us to express your interest in attending</a>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</section>

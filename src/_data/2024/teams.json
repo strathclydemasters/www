@@ -1,0 +1,64 @@
+{
+    "lastModified": "2024-03-30",
+    "genders": [
+        {
+            "gender": "Men",
+            "competitions": [
+                {
+                    "competition": "M40+",
+                    "teams": [
+                        { "team": "Bald Eagles" },
+                        { "team": "Paisley BC"  },
+                        { "team": "Troon Tornadoes" },
+                        { "team": "Tyrone Towers"  },
+                        { "team": "West Coast Warriors"  }
+                    ]
+                },
+                {
+                    "competition": "M50+",
+                    "teams": [
+                        { "team": "Aberdeen" },
+                        { "team": "Barrio" },
+                        { "team": "Galway" },
+                        { "team": "Rochdale Rockets" },
+                        { "team": "Strathclyde" }
+                    ]
+                },
+                {
+                    "competition": "M60+",
+                    "teams": [
+                        { "team": "Rathmines" },
+                        { "team": "Strathclyde" },
+                        { "team": "Strollers" },
+                        { "team": "Old Basket Venice" },
+                        { "team": "Rochdale Rockets" }
+                    ]
+                },
+                {
+                    "competition": "M65+",
+                    "teams": [
+                        { "team": "Over Sport Italia" },
+                        { "team": "Severnside" },
+                        { "team": "Shannon Dodgers" },
+                        { "team": "Strathclyde Sixers" }
+                    ]
+                }
+            ]
+        },
+        {
+            "gender": "Women",
+            "competitions": [
+                {
+                    "competition": "W50+",
+                    "teams": [
+                        { "team": "Fusion" },
+                        { "team": "Glasnevin" },
+                        { "team": "Nunthorpe Bruins" },
+                        { "team": "Oxford Diamonds" },
+                        { "team": "Strathclyde" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

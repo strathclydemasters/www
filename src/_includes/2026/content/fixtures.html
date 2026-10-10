@@ -1,0 +1,37 @@
+{%- assign venues = 2026.fixtures.venues -%}
+
+{%- if venues -%}
+	<section class="bg-secondary pt-5 pb-12.5">
+		<div class="container">
+			<h2 class="section-title">{{ season }} Fixtures</h2>
+
+			{%- for venue in venues -%}
+				<div class="grid gap-x-[30px] md:auto-cols-fr md:grid-flow-col">
+					{%- for court in venue.courts -%}
+						<div>
+							{% include 'components/fixtures-court.html', venue: venue, court: court %}
+						</div>
+					{%- endfor -%}
+				</div>
+			{%- endfor -%}
+
+{%- comment -%}
+			{%- assign competitionFixtures = 2026.competitionFixtures -%}
+
+			{%- for competitions in competitionFixtures -%}
+				<pre>{{ competitions.competition }}</pre>
+
+				{%- for fixture in competitions.fixtures -%}
+					<pre>1 {{ fixture }}</pre>
+					<pre>2 {{ fixture.fixture.homeTeamName }}</pre>
+				{%- endfor -%}
+			{%- endfor -%}
+{%- endcomment -%}
+
+			<p class="mb-[14px]">Last updated: {{ 2026.fixtures.lastModified | date: '%e-%b-%Y' }}</p>
+		</div>
+	</section>
+{%- else -%}
+	{% capture heading %}{{ season }} playing schedule to be announced{% endcapture %}
+	{% include 'components/announce.html', image: '/images/gallery/2019/56604987_10217218058976498_3911666362757414912_o.jpg', heading: heading %}
+{%- endif -%}

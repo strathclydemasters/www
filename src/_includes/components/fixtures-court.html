@@ -1,0 +1,48 @@
+{%- comment -%}
+	Fixture list for one court, grouped by day
+	Params: venue, court, format ('noScores' for 2023, 'dashedScores' for 2024, omit for 2025 onwards)
+{%- endcomment -%}
+<table class="table-fixtures">
+	<thead>
+		<tr>
+			<th colspan="2" class="font-normal text-body">
+				<h3 class="mb-[7px] text-2xl/[1.4]">{{ venue.venue }}</h3>
+				<h5 class="mb-[7px] text-lg/[1.4]">{{ court.court }}</h5>
+			</th>
+		</tr>
+	</thead>
+
+	{%- for date in court.dates -%}
+		<thead>
+			<tr>
+				<th colspan="2">{{ date.date | date: "%A, %e %B" }}</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			{%- for time in date.times -%}
+				<tr>
+					<td class="w-px whitespace-nowrap">{{ time.time }}</td>
+					<td>
+						{%- if time.competition -%}
+							{%- if time.home -%}
+								{%- case format -%}
+									{%- when 'noScores' -%}
+										{{ time.competition }} - {{ time.home }} v {{ time.away }}
+									{%- when 'dashedScores' -%}
+										{{ time.competition }} - {{ time.home }} {% if time.homeScore %} ({{ time.homeScore}}{% endif %} v {% if time.awayScore %}{{ time.awayScore}}){% endif %} {{ time.away }}
+									{%- else -%}
+										{{ time.competition }} {{ time.home }} {% if time.homeScore > 0 %} ({{ time.homeScore}}{% endif %} {% if time.away != '' %} v {% endif%}{% if time.awayScore > 0 %}{{ time.awayScore}}){% endif %} {{ time.away }}
+								{%- endcase -%}
+							{%- else -%}
+								{{ time.competition }}
+							{%- endif -%}
+						{%- else -%}
+							&nbsp;
+						{%- endif-%}
+					</td>
+				</tr>
+			{%- endfor -%}
+		</tbody>
+	{%- endfor -%}
+</table>

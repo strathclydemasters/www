@@ -1,0 +1,55 @@
+{% assign venues = 2019.fixtures.venues %}
+{% assign slots = 2019.fixtures.slots %}
+
+<section class="bg-secondary pt-5 pb-12.5">
+	<div class="container">
+		<h2 class="section-title">{{ season }} Fixtures</h2>
+
+		<div class="overflow-x-auto">
+			<table class="table-fixtures [&_td]:p-[10.5px] [&_th]:p-[10.5px]">
+				<thead>
+					<tr>
+						<th>&nbsp;</th>
+						{% for venue in venues %}
+							<th colspan="{{ venue.courts | size }}" class="font-normal text-body">
+								<h3 class="mb-[7px] text-2xl/[1.4]">{{ venue.name }}</h3>
+							</th>
+						{% endfor %}
+					</tr>
+				</thead>
+
+				{% for slot in slots %}
+					<thead>
+						<tr>
+							<th class="w-[10%]">{{ slot.date | date: "%a, %e %B" }}</th>
+
+							{% for venue in venues %}
+								{% for court in venue.courts %}
+									<th class="w-[30%]">{{ court.name }}</th>
+								{% endfor %}
+							{% endfor %}
+						</tr>
+					</thead>
+
+					<tbody>
+						{% for time in slot.times %}
+							<tr>
+								<td>{{ time.time }}</td>
+
+								{% for game in time.games %}
+									<td>
+										{% if game.home %}
+											{{ game.competition }} - {{ game.home }}&nbsp;vs&nbsp;{{ game.away }}
+										{% else %}
+											&nbsp;
+										{% endif %}
+									</td>
+								{% endfor %}
+							</tr>
+						{% endfor %}
+					</tbody>
+				{% endfor %}
+			</table>
+		</div>
+	</div>
+</section>

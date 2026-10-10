@@ -1,0 +1,36 @@
+{
+    "images": [
+        {
+            "file": "./src/images/gallery/2024/O50_Ladies_Winners_NunThorpe_Bruins.jpg",
+            "caption": "Strathclyde Masters 2024: NunThorpe Bruins W50+ winners"
+        },
+        {
+            "file": "./src/images/gallery/2024/O50M_Rochdale_&_Strathclyde.jpg",
+            "caption": "Strathclyde Masters 2024: Rochdale and Strathclyde M50+"
+        },
+        {
+            "file": "./src/images/gallery/2024/O50M_Strathclyde.jpg",
+            "caption": "Strathclyde Masters 2024: Strathclyde M50+"
+        },
+        {
+            "file": "./src/images/gallery/2024/O65M_Severnside_&_Over_Sport_Italy.jpg",
+            "caption": "Strathclyde Masters 2024: Severnsaide and Over Sport M65+"
+        },
+        {
+            "file": "./src/images/gallery/2024/O65M_Severnside.jpg",
+            "caption": "Strathclyde Masters 2024: Severnside M65+"
+        },
+        {
+            "file": "./src/images/gallery/2024/Sixers_&_Over_Sport_Italy.jpg",
+            "caption": "Strathclyde Masters 2024: Sixers and Over Sport M65+"
+        },
+        {
+            "file": "./src/images/gallery/2024/IMG_4163.jpg",
+            "caption": "Strathclyde Masters 2024"
+        },
+        {
+            "file": "./src/images/gallery/2024/IMG_4167.jpg",
+            "caption": "Strathclyde Masters 2024 - Old Basket Venice M60+ winners"
+        }
+    ]
+}

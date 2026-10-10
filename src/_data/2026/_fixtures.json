@@ -1,0 +1,257 @@
+{
+	"lastModified": "2026-02-23",
+	"venues": [
+		{
+			"venue": "Lagoon Leisure Centre",
+			"courts": [
+				{
+					"court": "Court 1",
+					"dates": [
+						{
+							"date": "2026-03-13",
+							"times": [
+								{
+									"home": "Maxi Basket Milano",
+									"competition": "M50+",
+									"time": "19:30",
+									"awayScore": 0,
+									"away": "Barrio",
+									"homeScore": 0
+								},
+								{
+									"home": "Maxi Basket Milano",
+									"competition": "M65+",
+									"time": "20:30",
+									"awayScore": 0,
+									"away": "Sevenside",
+									"homeScore": 0
+								}
+							]
+						},
+						{
+							"date": "2026-03-14",
+							"times": [
+								{
+									"home": "Strathclyde Sixers",
+									"competition": "M65+",
+									"time": "12:00",
+									"awayScore": 0,
+									"away": "Shannon Dodgers",
+									"homeScore": 0
+								},
+								{
+									"home": "Maxi Basket Milano",
+									"competition": "M50+",
+									"time": "15:00",
+									"awayScore": 0,
+									"away": "Galway",
+									"homeScore": 0
+								},
+								{
+									"home": "Strathclyde Sixers",
+									"competition": "M65+",
+									"time": "16:00",
+									"awayScore": 0,
+									"away": "Sevenside",
+									"homeScore": 0
+								}
+							]
+						},
+						{
+							"date": "2026-03-15",
+							"times": [
+								{
+									"home": "Strathclyde",
+									"competition": "M60+",
+									"time": "14:00",
+									"awayScore": 0,
+									"away": "Celtic Warriors",
+									"homeScore": 0
+								}
+							]
+						}
+					]
+				},
+				{
+					"court": "Court 2",
+					"dates": [
+						{
+							"date": "2026-03-13",
+							"times": [
+								{
+									"home": "Strathclyde",
+									"competition": "M50+",
+									"time": "19:30",
+									"awayScore": 0,
+									"away": "Adria Academy Bari",
+									"homeScore": 0
+								},
+								{
+									"home": "Strathclyde",
+									"competition": "M60+",
+									"time": "20:30",
+									"awayScore": 0,
+									"away": "Maxi Basket Milano",
+									"homeScore": 0
+								}
+							]
+						},
+						{
+							"date": "2026-03-14",
+							"times": [
+								{
+									"home": "Barrio",
+									"competition": "M50+",
+									"time": "12:00",
+									"awayScore": 0,
+									"away": "Galway",
+									"homeScore": 0
+								},
+								{
+									"home": "Adria Academy Bari",
+									"competition": "M50+",
+									"time": "15:00",
+									"awayScore": 0,
+									"away": "Celtic Warriors",
+									"homeScore": 0
+								},
+								{
+									"home": "Maxi Basket Milano",
+									"competition": "M65+",
+									"time": "16:00",
+									"awayScore": 0,
+									"away": "Shannon Dodgers",
+									"homeScore": 0
+								},
+								{
+									"home": "Strathclyde",
+									"competition": "M50+",
+									"time": "17:00",
+									"awayScore": 0,
+									"away": "Celtic Warriors",
+									"homeScore": 0
+								},
+								{
+									"home": "Strathclyde",
+									"competition": "M60+",
+									"time": "17:00",
+									"awayScore": 0,
+									"away": "Cobham Cobras",
+									"homeScore": 0
+								}
+							]
+						},
+						{
+							"date": "2026-03-15",
+							"times": [
+								{
+									"home": "Maxi Basket Milano",
+									"competition": "M60+",
+									"time": "10:00",
+									"awayScore": 0,
+									"away": "Cobham Cobras",
+									"homeScore": 0
+								},
+								{
+									"home": "Maxi Basket Milano",
+									"competition": "M65+",
+									"time": "14:00",
+									"awayScore": 0,
+									"away": "Strathclyde Sixers",
+									"homeScore": 0
+								}
+							]
+						}
+					]
+				},
+				{
+					"court": "Arena",
+					"dates": [
+						{
+							"date": "2026-03-14",
+							"times": [
+								{
+									"home": "Bald Eagles",
+									"competition": "M40+",
+									"time": "10:00",
+									"awayScore": 0,
+									"away": "Leith Honey Badgers",
+									"homeScore": 0
+								},
+								{
+									"home": "Troon Tornadoes",
+									"competition": "M40+",
+									"time": "11:00",
+									"awayScore": 0,
+									"away": "Galway",
+									"homeScore": 0
+								},
+								{
+									"home": "Bald Eagles",
+									"competition": "M40+",
+									"time": "12:00",
+									"awayScore": 0,
+									"away": "West Coast Wolverines",
+									"homeScore": 0
+								},
+								{
+									"home": "Troon Tornadoes",
+									"competition": "M40+",
+									"time": "13:00",
+									"awayScore": 0,
+									"away": "Aberdeen Leopards",
+									"homeScore": 0
+								},
+								{
+									"home": "West Coast Wolverines",
+									"competition": "M40+",
+									"time": "14:00",
+									"awayScore": 0,
+									"away": "Leith Honey Badgers",
+									"homeScore": 0
+								},
+								{
+									"home": "Cobham Cobras",
+									"competition": "M60+",
+									"time": "15:00",
+									"awayScore": 0,
+									"away": "Celtic Warriors",
+									"homeScore": 0
+								},
+								{
+									"home": "Aberdeen Leopards",
+									"competition": "M40+",
+									"time": "16:00",
+									"awayScore": 0,
+									"away": "Galway",
+									"homeScore": 0
+								},
+								{
+									"home": "Celtic Warriors",
+									"competition": "M60+",
+									"time": "17:00",
+									"awayScore": 0,
+									"away": "Maxi Basket Milano",
+									"homeScore": 0
+								}
+							]
+						},
+						{
+							"date": "2026-03-15",
+							"times": [
+								{
+									"home": "Sevenside",
+									"competition": "M65+",
+									"time": "14:00",
+									"awayScore": 0,
+									"away": "Shannon Dodgers",
+									"homeScore": 0
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

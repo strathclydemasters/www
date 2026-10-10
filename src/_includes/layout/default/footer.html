@@ -1,0 +1,87 @@
+<!-- Footer -->
+<div id="contacts-section" class="bg-black/90 py-15 text-white/80 no-print">
+	<div class="container grid gap-x-[30px] md:grid-cols-2 lg:grid-cols-12">
+		<!-- Footer Content -->
+		<div class="mb-10 lg:col-span-3 lg:mb-0">
+			<h2 class="rule-heading">About Us</h2>
+
+			<p class="mb-[14px]">The Strathclyde Masters Team first competed in 2000 at a GB Masters tournament held in Edinburgh. Since 2014 we have organised the Strathclyde Masters tournament in Glasgow.</p>
+
+			<p class="mb-[14px] pt-[14px]">The main tournament venue and the recommended hotel are within 2 miles of each other and 3 and 2 miles respectively from Glasgow Airport.</p>
+		</div>
+		<!-- End Footer Content -->
+
+		<!-- Footer Content -->
+		<div class="mb-10 lg:col-span-3 lg:mb-0">
+			<h2 class="rule-heading">Useful Downloads</h2>
+
+			<nav>
+				<ul class="-mt-2.5">
+					{%- assign downloads = 'Fixtures,Rules,Liability Waiver' | split: ',' -%}
+
+					{% for download in downloads %}
+						<li class="relative border-b border-white/10 py-2.5">
+							<a class="flex items-center justify-between text-white/80 hover:text-white" href="/resources/{{ site.season }}/Strathclyde Masters {{ download }} {{ site.season }}.pdf" target="_blank">
+								{{ download }}
+								<span class="text-xs">{% include 'icons/angle-right.svg' %}</span>
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</nav>
+		</div>
+		<!-- End Footer Content -->
+
+		<!-- Footer Content -->
+		<div class="md:col-span-2 lg:col-span-6">
+			<h2 class="rule-heading">Contact Us</h2>
+
+			<form id="contact" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+				<input name="subject" type="hidden" value="Strathclyde Masters Website Enquiry">
+
+				<div class="grid grid-cols-2 gap-x-[30px]">
+					<div class="mb-5">
+						<label class="mb-2.5 inline-block" for="name">Full name *</label>
+						<input id="name" name="name" class="block w-full border border-[#ccc] bg-white px-[14px] py-[11px] text-body outline-none focus:border-primary" type="text" required>
+					</div>
+
+					<div class="mb-5">
+						<label class="mb-2.5 inline-block" for="email">Email address *</label>
+						<input id="email" name="email" class="block w-full border border-[#ccc] bg-white px-[14px] py-[11px] text-body outline-none focus:border-primary" type="email" required>
+					</div>
+				</div>
+
+				<div class="mb-[14px]">
+					<label class="mb-2.5 inline-block" for="message">Message *</label>
+					<textarea id="message" name="message" class="block w-full resize-none border border-[#ccc] bg-white px-[14px] py-[11px] text-body outline-none focus:border-primary" rows="3" required></textarea>
+				</div>
+
+				<div class="px-[15px]">
+					<div data-netlify-recaptcha="true"></div>
+
+					<button class="btn-pill cursor-pointer" type="submit">Send your message</button>
+				</div>
+			</form>
+		</div>
+		<!-- End Footer Content -->
+	</div>
+</div>
+<!-- End Footer -->
+
+<!-- Copyright Footer -->
+<footer class="bg-dark py-5 text-white/80 no-print">
+	<div class="container flex flex-col items-center gap-2.5 md:flex-row md:justify-between">
+		<small class="text-sm">{% year %} &copy; All Rights Reserved by Strathclyde Masters</small>
+
+		<ul class="flex">
+			<li class="mx-2.5">
+				<a href="https://www.facebook.com/groups/403194619822023/" class="text-white/50 hover:text-white" target="_blank" title="Facebook" aria-label="Facebook">{% include 'icons/facebook.svg' %}</a>
+			</li>
+
+			<li class="mx-2.5">
+				<a href="https://twitter.com/strathmasters" class="text-white/50 hover:text-white" target="_blank" title="Twitter" aria-label="Twitter">{% include 'icons/twitter.svg' %}</a>
+			</li>
+		</ul>
+	</div>
+</footer>
+<!-- End Copyright Footer -->
