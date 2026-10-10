@@ -25,7 +25,7 @@ module.exports = async function portal( path ) {
 		try {
 			return await fetchJson( DEV_API + tournamentPath, { signal: AbortSignal.timeout( 2000 ) } );
 		} catch ( error ) {
-			console.warn( `[portal] Local API unavailable for ${ path }, using production data` );
+			console.warn( `[portal] Local API unavailable for ${ path } (${ error.message }), using production data` );
 		}
 	}
 
